@@ -1,0 +1,1257 @@
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] No valid object(s) found for 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] No valid object(s) found for 'FB'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] No valid object(s) found for 'pll_inst4_CLKOUT0'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:28] No clocks matched 'axi_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'axi_clk'
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~215~322'
+WARNING  : No ports matched 'o_cam_rstn[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~215~322'
+WARNING  : No ports matched 'o_cam_rstn[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~216~322'
+WARNING  : No ports matched 'i_cam_scl[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~216~322'
+WARNING  : No ports matched 'i_cam_scl[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~217~322'
+WARNING  : No ports matched 'o_cam_scl_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~217~322'
+WARNING  : No ports matched 'o_cam_scl_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~212~322'
+WARNING  : No ports matched 'i_cam_sda[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~212~322'
+WARNING  : No ports matched 'i_cam_sda[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~213~322'
+WARNING  : No ports matched 'o_cam_sda_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~213~322'
+WARNING  : No ports matched 'o_cam_sda_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:80] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:80] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:109] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:109] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:110] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:110] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:111] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:111] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:112] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:112] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:294] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:294] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:295] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:295] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:296] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:296] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:297] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:297] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:298] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:298] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:299] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:299] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:300] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:300] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:301] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:301] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:302] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:302] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:303] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:303] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:304] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:304] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:305] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:305] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:306] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:306] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:307] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:307] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:308] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:308] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:309] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:309] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:310] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:310] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:311] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:311] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:312] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:312] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:313] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:313] Unable to run 'set_output_delay' constraint due to warnings found
+INFO     : SDC file 'ti60f225_oob.sdc' parsed successfully.
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WARNING  : Timer cuts a combinational loop at the edge from i2417:in[0] to i2417:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2417:in[0] to i2417:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1527:in[0] to i1527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1527:in[0] to i1527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2407:in[0] to i2407:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2407:in[0] to i2407:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1517:in[0] to i1517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1517:in[0] to i1517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2397:in[0] to i2397:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2397:in[0] to i2397:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1507:in[0] to i1507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1507:in[0] to i1507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2387:in[0] to i2387:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2387:in[0] to i2387:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1497:in[0] to i1497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1497:in[0] to i1497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2377:in[0] to i2377:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2377:in[0] to i2377:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1487:in[0] to i1487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1487:in[0] to i1487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2367:in[0] to i2367:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2367:in[0] to i2367:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1477:in[0] to i1477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1477:in[0] to i1477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2357:in[0] to i2357:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2357:in[0] to i2357:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1467:in[0] to i1467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1467:in[0] to i1467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2517:in[0] to i2517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2517:in[0] to i2517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1627:in[0] to i1627:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1627:in[0] to i1627:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2507:in[0] to i2507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2507:in[0] to i2507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1617:in[0] to i1617:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1617:in[0] to i1617:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2497:in[0] to i2497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2497:in[0] to i2497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1607:in[0] to i1607:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1607:in[0] to i1607:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2487:in[0] to i2487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2487:in[0] to i2487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1597:in[0] to i1597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1597:in[0] to i1597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2477:in[0] to i2477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2477:in[0] to i2477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1587:in[0] to i1587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1587:in[0] to i1587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2467:in[0] to i2467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2467:in[0] to i2467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1577:in[0] to i1577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1577:in[0] to i1577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2457:in[0] to i2457:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2457:in[0] to i2457:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1567:in[0] to i1567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1567:in[0] to i1567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2447:in[0] to i2447:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2447:in[0] to i2447:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1557:in[0] to i1557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1557:in[0] to i1557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2437:in[0] to i2437:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2437:in[0] to i2437:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1547:in[0] to i1547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1547:in[0] to i1547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2427:in[0] to i2427:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2427:in[0] to i2427:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1537:in[0] to i1537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1537:in[0] to i1537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2597:in[0] to i2597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2597:in[0] to i2597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1707:in[0] to i1707:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1707:in[0] to i1707:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2587:in[0] to i2587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2587:in[0] to i2587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1697:in[0] to i1697:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1697:in[0] to i1697:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2577:in[0] to i2577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2577:in[0] to i2577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1687:in[0] to i1687:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1687:in[0] to i1687:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2567:in[0] to i2567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2567:in[0] to i2567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1677:in[0] to i1677:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1677:in[0] to i1677:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2557:in[0] to i2557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2557:in[0] to i2557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1667:in[0] to i1667:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1667:in[0] to i1667:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2547:in[0] to i2547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2547:in[0] to i2547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1657:in[0] to i1657:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1657:in[0] to i1657:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2537:in[0] to i2537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2537:in[0] to i2537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1647:in[0] to i1647:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1647:in[0] to i1647:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2527:in[0] to i2527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2527:in[0] to i2527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1637:in[0] to i1637:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1637:in[0] to i1637:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1767:in[0] to i1767:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1767:in[0] to i1767:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1757:in[0] to i1757:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1757:in[0] to i1757:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1747:in[0] to i1747:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1747:in[0] to i1747:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1097:in[0] to i1097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1097:in[0] to i1097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1777:in[0] to i1777:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1777:in[0] to i1777:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2157:in[0] to i2157:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2157:in[0] to i2157:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1787:in[0] to i1787:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1787:in[0] to i1787:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2137:in[0] to i2137:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2137:in[0] to i2137:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1797:in[0] to i1797:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1797:in[0] to i1797:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1957:in[0] to i1957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1957:in[0] to i1957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1947:in[0] to i1947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1947:in[0] to i1947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1937:in[0] to i1937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1937:in[0] to i1937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1927:in[0] to i1927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1927:in[0] to i1927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1917:in[0] to i1917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1917:in[0] to i1917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1907:in[0] to i1907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1907:in[0] to i1907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1897:in[0] to i1897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1897:in[0] to i1897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1887:in[0] to i1887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1887:in[0] to i1887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1877:in[0] to i1877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1877:in[0] to i1877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1867:in[0] to i1867:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1867:in[0] to i1867:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1857:in[0] to i1857:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1857:in[0] to i1857:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1847:in[0] to i1847:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1847:in[0] to i1847:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1837:in[0] to i1837:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1837:in[0] to i1837:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1827:in[0] to i1827:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1827:in[0] to i1827:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1817:in[0] to i1817:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1817:in[0] to i1817:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1807:in[0] to i1807:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1807:in[0] to i1807:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2207:in[0] to i2207:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2207:in[0] to i2207:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2187:in[0] to i2187:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2187:in[0] to i2187:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1267:in[0] to i1267:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1267:in[0] to i1267:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1277:in[0] to i1277:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1277:in[0] to i1277:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1317:in[0] to i1317:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1317:in[0] to i1317:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1297:in[0] to i1297:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1297:in[0] to i1297:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3107:in[0] to i3107:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3107:in[0] to i3107:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3097:in[0] to i3097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3097:in[0] to i3097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3087:in[0] to i3087:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3087:in[0] to i3087:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3077:in[0] to i3077:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3077:in[0] to i3077:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3067:in[0] to i3067:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3067:in[0] to i3067:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3057:in[0] to i3057:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3057:in[0] to i3057:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3047:in[0] to i3047:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3047:in[0] to i3047:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3037:in[0] to i3037:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3037:in[0] to i3037:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3027:in[0] to i3027:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3027:in[0] to i3027:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3017:in[0] to i3017:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3017:in[0] to i3017:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3007:in[0] to i3007:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3007:in[0] to i3007:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2997:in[0] to i2997:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2997:in[0] to i2997:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2987:in[0] to i2987:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2987:in[0] to i2987:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2977:in[0] to i2977:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2977:in[0] to i2977:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2967:in[0] to i2967:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2967:in[0] to i2967:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2957:in[0] to i2957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2957:in[0] to i2957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2947:in[0] to i2947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2947:in[0] to i2947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2937:in[0] to i2937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2937:in[0] to i2937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2927:in[0] to i2927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2927:in[0] to i2927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2917:in[0] to i2917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2917:in[0] to i2917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2907:in[0] to i2907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2907:in[0] to i2907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2897:in[0] to i2897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2897:in[0] to i2897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2887:in[0] to i2887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2887:in[0] to i2887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2877:in[0] to i2877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2877:in[0] to i2877:out [TimerMsg::CombinationalLoopDetected]
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 8 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by -0.55% (from 3111ps to 3128ps)
+INFO     : CSS improved CPD of clock core_clk by -0.32% (from 9191ps to 9220ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 3.26% (from 2117ps to 2048ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 2002ps to 2002ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by 0.00% (from 2043ps to 2043ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 1967ps to 1967ps)
+INFO     : CSS improved CPD of clock vid_clk_dvi2 by 0.00% (from 6260ps to 6260ps)
+INFO     : CSS improved CPD of clock CLK_5M by 0.00% (from 2801ps to 2801ps)
+INFO     : CSS improved CPD of clock rxc by 0.00% (from 4551ps to 4551ps)
+INFO     : CSS improved CPD of clock i_mipi_rx_pclk by 0.00% (from 4670ps to 4670ps)
+INFO     : CSS improved CPD of clock hdmi_tx_slow_clk by -19.04% (from 1460ps to 1738ps)
+INFO     : Discretized beneficial skew improved geomean CPD by -1.48% (from 3111ps to 3157ps in 9 iterations and 2.5 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 605 synchronizer-related pins
+INFO     : Iter  1: overlap=105941  heapops=13960046   (0%) cpd=3266  frr=1.00  msec=7876
+INFO     : [Setup Delay Budgets | 2157.1 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  12007506
+INFO     : Hold fix wire delay:      56146
+INFO     : Hold fix delay ratio:     0.47%
+INFO     : Pins requiring hold fix:  0.09%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=62337   heapops=11995517   (12%) cpd=3415  frr=1.05  msec=2467
+INFO     : Iter  3: overlap=37619   heapops=12840612   (9%) cpd=3413  frr=1.05  msec=2388
+INFO     : Iter  4: overlap=20935   heapops=13281771   (12%) cpd=3415  frr=1.05  msec=2488
+INFO     : Iter  5: overlap=9945    heapops=12786308   (25%) cpd=3384  frr=1.04  msec=2561
+INFO     : Iter  6: overlap=3843    heapops=11065064   (42%) cpd=3387  frr=1.04  msec=2486
+INFO     : Iter  7: overlap=1247    heapops=8271286    (60%) cpd=3387  frr=1.04  msec=2260
+INFO     : Iter  8: overlap=431     heapops=4395646    (75%) cpd=3403  frr=1.04  msec=1432
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter  9: overlap=182     heapops=2014945    (83%) cpd=3403  frr=1.04  msec=1177
+INFO     : Iter 10: overlap=182     heapops=962139     (88%) cpd=3403  frr=1.04  msec=671
+INFO     : Iter 11: overlap=70      heapops=825717     (89%) cpd=3403  frr=1.04  msec=770
+INFO     : Iter 12: overlap=49      heapops=425738     (90%) cpd=3456  frr=1.06  msec=442
+INFO     : Iter 13: overlap=44      heapops=669476     (90%) cpd=3439  frr=1.05  msec=734
+INFO     : Iter 14: overlap=21      heapops=508640     (90%) cpd=3439  frr=1.05  msec=606
+INFO     : Iter 15: overlap=25      heapops=251956     (90%) cpd=3439  frr=1.05  msec=343
+INFO     : Iter 16: overlap=23      heapops=380560     (90%) cpd=3439  frr=1.05  msec=575
+INFO     : Iter 17: overlap=19      heapops=176941     (90%) cpd=3439  frr=1.05  msec=309
+INFO     : Iter 18: overlap=27      heapops=171860     (90%) cpd=3439  frr=1.05  msec=308
+INFO     : Iter 19: overlap=32      heapops=387086     (90%) cpd=3439  frr=1.05  msec=569
+INFO     : Iter 20: overlap=25      heapops=174206     (90%) cpd=3439  frr=1.05  msec=312
+INFO     : Iter 21: overlap=18      heapops=334907     (90%) cpd=3439  frr=1.05  msec=446
+INFO     : Iter 22: overlap=19      heapops=364667     (90%) cpd=3439  frr=1.05  msec=506
+INFO     : Iter 23: overlap=15      heapops=379619     (90%) cpd=3439  frr=1.05  msec=541
+INFO     : Iter 24: overlap=16      heapops=374263     (90%) cpd=3439  frr=1.05  msec=531
+INFO     : Iter 25: overlap=9       heapops=372016     (90%) cpd=3439  frr=1.05  msec=522
+INFO     : Iter 26: overlap=13      heapops=616243     (90%) cpd=3439  frr=1.05  msec=594
+INFO     : Iter 27: overlap=8       heapops=369111     (90%) cpd=3439  frr=1.05  msec=547
+INFO     : Iter 28: overlap=6       heapops=414272     (90%) cpd=3439  frr=1.05  msec=587
+INFO     : Iter 29: overlap=8       heapops=424268     (90%) cpd=3439  frr=1.05  msec=595
+INFO     : Iter 30: overlap=12      heapops=271815     (90%) cpd=3439  frr=1.05  msec=391
+INFO     : Iter 31: overlap=9       heapops=225679     (90%) cpd=3439  frr=1.05  msec=365
+INFO     : Iter 32: overlap=10      heapops=462717     (90%) cpd=3439  frr=1.05  msec=635
+INFO     : Iter 33: overlap=3       heapops=212541     (90%) cpd=3439  frr=1.05  msec=352
+INFO     : Iter 34: overlap=1       heapops=169037     (90%) cpd=3439  frr=1.05  msec=313
+INFO     : Iter 35: overlap=1       heapops=166039     (90%) cpd=3439  frr=1.05  msec=298
+INFO     : Iter 36: overlap=1       heapops=165946     (90%) cpd=3439  frr=1.05  msec=303
+INFO     : Iter 37: overlap=1       heapops=372561     (90%) cpd=3439  frr=1.05  msec=547
+INFO     : Iter 38: overlap=1       heapops=372873     (90%) cpd=3439  frr=1.05  msec=570
+INFO     : Iter 39: overlap=1       heapops=372831     (90%) cpd=3439  frr=1.05  msec=557
+INFO     : Iter 40: overlap=1       heapops=372872     (90%) cpd=3439  frr=1.05  msec=546
+INFO     : Iter 41: overlap=1       heapops=372860     (90%) cpd=3439  frr=1.05  msec=552
+INFO     : Iter 42: overlap=1       heapops=372913     (90%) cpd=3439  frr=1.05  msec=564
+INFO     : Iter 43: overlap=3       heapops=166559     (90%) cpd=3439  frr=1.05  msec=377
+INFO     : Iter 44: overlap=2       heapops=151713     (90%) cpd=3439  frr=1.05  msec=303
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 3515ps to 3515ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 9398ps to 9398ps)
+INFO     : CSS improved CPD of clock tx_cal_clk_90edge by 0.00% (from 2063ps to 2063ps)
+INFO     : CSS improved CPD of clock sdram_clk by 0.00% (from 2043ps to 2043ps)
+INFO     : CSS improved CPD of clock rx_cal_clk by -2.43% (from 1979ps to 2027ps)
+INFO     : CSS improved CPD of clock tx_cal_clk by 0.00% (from 2069ps to 2069ps)
+INFO     : CSS improved CPD of clock vid_clk_dvi2 by 0.00% (from 7169ps to 7169ps)
+INFO     : CSS improved CPD of clock CLK_5M by 0.00% (from 3334ps to 3334ps)
+INFO     : CSS improved CPD of clock rxc by 0.00% (from 5435ps to 5435ps)
+INFO     : CSS improved CPD of clock i_mipi_rx_pclk by 0.00% (from 6904ps to 6904ps)
+INFO     : CSS improved CPD of clock hdmi_tx_slow_clk by 0.00% (from 1982ps to 1982ps)
+INFO     : Discretized beneficial skew improved geomean CPD by -0.23% (from 3515ps to 3523ps in 1 iterations and 3.3 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 45: overlap=0       heapops=151708     (90%) cpd=3452  frr=1.06  msec=3583
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 47.91 seconds taking 45 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 3.266 ns 
+INFO     : Last iteration critical path delay  = 3.452 ns (ratio = 1.06)
+INFO     : Max Routing Heap Size = 83,495
+INFO     : Routing trace written to file 'outflow\ti60f225_oob.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 54.4420476 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 167.296875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 285.808 MB, end = 492.684 MB, delta = 206.876 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 549.396 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 295.196 MB, end = 497.528 MB, delta = 202.332 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 516.944 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] No valid object(s) found for 'axi_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:5] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] No valid object(s) found for 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:7] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] No valid object(s) found for 'FB'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:21] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] No valid object(s) found for 'pll_inst4_CLKOUT0'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] No valid pin(s) found for clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:22] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: No valid clock(s) found for -group 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] set_clock_groups: Cannot set clock group when only one non-empty group remains
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:27] Unable to run 'set_clock_groups' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:28] No clocks matched 'axi_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:28] set_clock_groups: No valid clock(s) found for -group 'axi_clk'
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~215~322'
+WARNING  : No ports matched 'o_cam_rstn[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:43] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~215~322'
+WARNING  : No ports matched 'o_cam_rstn[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:44] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~216~322'
+WARNING  : No ports matched 'i_cam_scl[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~216~322'
+WARNING  : No ports matched 'i_cam_scl[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:48] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~217~322'
+WARNING  : No ports matched 'o_cam_scl_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:49] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~217~322'
+WARNING  : No ports matched 'o_cam_scl_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:50] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~212~322'
+WARNING  : No ports matched 'i_cam_sda[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:51] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~212~322'
+WARNING  : No ports matched 'i_cam_sda[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:52] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~213~322'
+WARNING  : No ports matched 'o_cam_sda_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:53] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~213~322'
+WARNING  : No ports matched 'o_cam_sda_oe[0]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:54] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:59] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:60] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:61] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:62] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:63] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_RESET'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:64] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:65] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:66] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:67] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'jtag_inst1_UPDATE'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] No clocks matched 'jtag_inst1_TCK'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:80] Missing value for option -period, please type 'create_clock -help' for usage info
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:80] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:109] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:109] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[14]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:110] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:110] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:111] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:111] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'ddr_addr[15]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:112] set_output_delay: No valid output port(s) found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:112] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:139] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~31'
+WARNING  : No ports matched 'system_spi_0_io_sclk_write'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:140] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:141] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_soc_clk~CLKOUT~1~30'
+WARNING  : No ports matched 'system_spi_0_io_ss'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] No clocks matched 'i_soc_clk'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:142] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:259] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:260] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:261] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d0_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:262] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:263] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:264] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:265] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d0_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:266] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:267] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_FIFO_RD'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:268] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:269] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'o_cam_d1_RST'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:270] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:271] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_FIFO_EMPTY'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:272] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:273] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_cam_d1_HS_IN[*]'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:274] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:275] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:276] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:277] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:278] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:279] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:280] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:281] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:282] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:283] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:284] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:285] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] set_output_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:286] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:287] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:288] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:289] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] No clocks matched 'i_cam_ck_CLKOUT'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] set_input_delay: No valid clock found for -clock
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:290] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:294] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:294] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:295] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:295] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:296] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:296] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~39~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:297] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:297] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:298] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:298] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:299] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:299] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:300] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:300] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~63~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:301] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:301] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:302] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:302] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:303] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:303] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:304] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:304] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~71~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:305] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:305] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:306] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:306] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:307] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:307] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:308] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:308] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~55~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:309] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:309] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:310] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:310] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:311] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:311] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:312] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:312] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING  : No ports matched 'i_mipi_tx_pclk~CLKOUT~31~322'
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:313] set_output_delay: No valid output port found for -reference_pin
+WARNING  : [SDC D:/FPGA/cursor/prj_38/02-fpga/03_sc431_wb_cal/ti60f225_oob.sdc:313] Unable to run 'set_output_delay' constraint due to warnings found
+INFO     : SDC file 'ti60f225_oob.sdc' parsed successfully.
+WARNING  : Timer cuts a combinational loop at the edge from i2417:in[0] to i2417:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2417:in[0] to i2417:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1527:in[0] to i1527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1527:in[0] to i1527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2407:in[0] to i2407:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2407:in[0] to i2407:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1517:in[0] to i1517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1517:in[0] to i1517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2397:in[0] to i2397:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2397:in[0] to i2397:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1507:in[0] to i1507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1507:in[0] to i1507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2387:in[0] to i2387:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2387:in[0] to i2387:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1497:in[0] to i1497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1497:in[0] to i1497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2377:in[0] to i2377:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2377:in[0] to i2377:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1487:in[0] to i1487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1487:in[0] to i1487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2367:in[0] to i2367:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2367:in[0] to i2367:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1477:in[0] to i1477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1477:in[0] to i1477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2357:in[0] to i2357:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2357:in[0] to i2357:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1467:in[0] to i1467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1467:in[0] to i1467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2517:in[0] to i2517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2517:in[0] to i2517:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1627:in[0] to i1627:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1627:in[0] to i1627:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2507:in[0] to i2507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2507:in[0] to i2507:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1617:in[0] to i1617:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1617:in[0] to i1617:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2497:in[0] to i2497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2497:in[0] to i2497:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1607:in[0] to i1607:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1607:in[0] to i1607:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2487:in[0] to i2487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2487:in[0] to i2487:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1597:in[0] to i1597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1597:in[0] to i1597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2477:in[0] to i2477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2477:in[0] to i2477:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1587:in[0] to i1587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1587:in[0] to i1587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2467:in[0] to i2467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2467:in[0] to i2467:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1577:in[0] to i1577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1577:in[0] to i1577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2457:in[0] to i2457:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2457:in[0] to i2457:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1567:in[0] to i1567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1567:in[0] to i1567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2447:in[0] to i2447:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2447:in[0] to i2447:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1557:in[0] to i1557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1557:in[0] to i1557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2437:in[0] to i2437:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2437:in[0] to i2437:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1547:in[0] to i1547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1547:in[0] to i1547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2427:in[0] to i2427:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2427:in[0] to i2427:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1537:in[0] to i1537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1537:in[0] to i1537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2597:in[0] to i2597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2597:in[0] to i2597:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1707:in[0] to i1707:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1707:in[0] to i1707:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2587:in[0] to i2587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2587:in[0] to i2587:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1697:in[0] to i1697:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1697:in[0] to i1697:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2577:in[0] to i2577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2577:in[0] to i2577:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1687:in[0] to i1687:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1687:in[0] to i1687:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2567:in[0] to i2567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2567:in[0] to i2567:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1677:in[0] to i1677:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1677:in[0] to i1677:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2557:in[0] to i2557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2557:in[0] to i2557:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1667:in[0] to i1667:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1667:in[0] to i1667:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2547:in[0] to i2547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2547:in[0] to i2547:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1657:in[0] to i1657:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1657:in[0] to i1657:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2537:in[0] to i2537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2537:in[0] to i2537:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1647:in[0] to i1647:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1647:in[0] to i1647:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2527:in[0] to i2527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2527:in[0] to i2527:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1637:in[0] to i1637:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1637:in[0] to i1637:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1767:in[0] to i1767:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1767:in[0] to i1767:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1757:in[0] to i1757:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1757:in[0] to i1757:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1747:in[0] to i1747:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1747:in[0] to i1747:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1097:in[0] to i1097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1097:in[0] to i1097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1777:in[0] to i1777:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1777:in[0] to i1777:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2157:in[0] to i2157:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2157:in[0] to i2157:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1787:in[0] to i1787:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1787:in[0] to i1787:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2137:in[0] to i2137:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2137:in[0] to i2137:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1797:in[0] to i1797:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1797:in[0] to i1797:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1957:in[0] to i1957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1957:in[0] to i1957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1947:in[0] to i1947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1947:in[0] to i1947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1937:in[0] to i1937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1937:in[0] to i1937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1927:in[0] to i1927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1927:in[0] to i1927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1917:in[0] to i1917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1917:in[0] to i1917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1907:in[0] to i1907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1907:in[0] to i1907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1897:in[0] to i1897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1897:in[0] to i1897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1887:in[0] to i1887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1887:in[0] to i1887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1877:in[0] to i1877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1877:in[0] to i1877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1867:in[0] to i1867:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1867:in[0] to i1867:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1857:in[0] to i1857:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1857:in[0] to i1857:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1847:in[0] to i1847:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1847:in[0] to i1847:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1837:in[0] to i1837:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1837:in[0] to i1837:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1827:in[0] to i1827:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1827:in[0] to i1827:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1817:in[0] to i1817:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1817:in[0] to i1817:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1807:in[0] to i1807:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1807:in[0] to i1807:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2207:in[0] to i2207:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2207:in[0] to i2207:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2187:in[0] to i2187:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2187:in[0] to i2187:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1267:in[0] to i1267:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1267:in[0] to i1267:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1277:in[0] to i1277:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1277:in[0] to i1277:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1317:in[0] to i1317:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1317:in[0] to i1317:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1297:in[0] to i1297:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i1297:in[0] to i1297:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3107:in[0] to i3107:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3107:in[0] to i3107:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3097:in[0] to i3097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3097:in[0] to i3097:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3087:in[0] to i3087:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3087:in[0] to i3087:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3077:in[0] to i3077:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3077:in[0] to i3077:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3067:in[0] to i3067:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3067:in[0] to i3067:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3057:in[0] to i3057:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3057:in[0] to i3057:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3047:in[0] to i3047:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3047:in[0] to i3047:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3037:in[0] to i3037:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3037:in[0] to i3037:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3027:in[0] to i3027:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3027:in[0] to i3027:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3017:in[0] to i3017:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3017:in[0] to i3017:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3007:in[0] to i3007:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i3007:in[0] to i3007:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2997:in[0] to i2997:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2997:in[0] to i2997:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2987:in[0] to i2987:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2987:in[0] to i2987:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2977:in[0] to i2977:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2977:in[0] to i2977:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2967:in[0] to i2967:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2967:in[0] to i2967:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2957:in[0] to i2957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2957:in[0] to i2957:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2947:in[0] to i2947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2947:in[0] to i2947:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2937:in[0] to i2937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2937:in[0] to i2937:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2927:in[0] to i2927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2927:in[0] to i2927:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2917:in[0] to i2917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2917:in[0] to i2917:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2907:in[0] to i2907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2907:in[0] to i2907:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2897:in[0] to i2897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2897:in[0] to i2897:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2887:in[0] to i2887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2887:in[0] to i2887:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2877:in[0] to i2877:out [TimerMsg::CombinationalLoopDetected]
+WARNING  : Timer cuts a combinational loop at the edge from i2877:in[0] to i2877:out [TimerMsg::CombinationalLoopDetected]
+Maximum possible analyzed clocks frequency
+   Clock Name     Period (ns)  Frequency (MHz)     Edge
+core_clk             9.524        104.998         (R-R)
+tx_cal_clk_90edge    2.189        456.830         (R-R)
+sdram_clk            2.169        461.042         (R-R)
+rx_cal_clk           2.153        464.468         (R-R)
+tx_cal_clk           2.195        455.581         (R-R)
+vid_clk_dvi2         7.295        137.080         (R-R)
+CLK_5M               3.460        289.017         (R-R)
+rxc                  5.561        179.824         (R-R)
+i_mipi_rx_pclk       7.030        142.248         (R-R)
+hdmi_tx_slow_clk     4.952        201.939         (R-R)
+
+Geomean max period: 3.998
+
+Setup (Max) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk               10.000            0.476           (R-R)
+core_clk          tx_cal_clk_90edge       2.500            0.695           (R-R)
+core_clk          hdmi_tx_slow_clk        0.001           -1.015           (R-R)
+tx_cal_clk_90edge core_clk                2.500            2.104           (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge       2.500            0.311           (R-R)
+tx_cal_clk_90edge tx_cal_clk              2.500            1.056           (R-R)
+sdram_clk         tx_cal_clk_90edge       2.500            0.485           (R-R)
+sdram_clk         sdram_clk               2.500            0.331           (R-R)
+rx_cal_clk        rx_cal_clk              2.500            0.347           (R-R)
+tx_cal_clk        tx_cal_clk              2.500            0.305           (R-R)
+vid_clk_dvi2      vid_clk_dvi2           13.445            6.150           (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk        0.001           -3.538           (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk        0.001           -0.889           (R-F)
+CLK_5M            CLK_5M                200.000          196.540           (R-R)
+rxc               rxc                     8.000            2.439           (R-R)
+rxc               hdmi_tx_slow_clk        0.001           -0.706           (R-R)
+i_mipi_rx_pclk    i_mipi_rx_pclk         20.000           12.970           (R-R)
+hdmi_tx_slow_clk  core_clk                0.001           -1.144           (R-R)
+hdmi_tx_slow_clk  rxc                     0.001           -1.040           (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        6.723            1.771           (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        3.362            1.254           (F-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock      Capture Clock   Constraint (ns)     Slack (ns)          Edge
+core_clk          core_clk                0.000           0.027            (R-R)
+core_clk          tx_cal_clk_90edge       0.000           0.131            (R-R)
+core_clk          hdmi_tx_slow_clk        0.000           0.060            (R-R)
+tx_cal_clk_90edge core_clk                0.000           0.076            (R-R)
+tx_cal_clk_90edge tx_cal_clk_90edge       0.000           0.039            (R-R)
+tx_cal_clk_90edge tx_cal_clk              0.000           0.620            (R-R)
+sdram_clk         tx_cal_clk_90edge       0.000           0.487            (R-R)
+sdram_clk         sdram_clk               0.000           0.097            (R-R)
+rx_cal_clk        rx_cal_clk              0.000           0.026            (R-R)
+tx_cal_clk        tx_cal_clk              0.000           0.097            (R-R)
+vid_clk_dvi2      vid_clk_dvi2            0.000           0.017            (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk        0.000           0.031            (R-R)
+vid_clk_dvi2      hdmi_tx_slow_clk        0.000           0.020            (R-F)
+CLK_5M            CLK_5M                  0.000           0.083            (R-R)
+rxc               rxc                     0.000           0.042            (R-R)
+rxc               hdmi_tx_slow_clk        0.000           0.031            (R-R)
+i_mipi_rx_pclk    i_mipi_rx_pclk          0.000           0.064            (R-R)
+hdmi_tx_slow_clk  core_clk                0.000           0.007            (R-R)
+hdmi_tx_slow_clk  rxc                     0.000           0.022            (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk        0.000           0.018            (R-R)
+hdmi_tx_slow_clk  hdmi_tx_slow_clk       -3.361           3.473            (F-R)
+
+WARNING  : Clock domain between core_clk (rising) and hdmi_tx_slow_clk (rising) may not meet (slack: -1.015 ns) the setup (max) timing requirement
+WARNING  : Clock domain between vid_clk_dvi2 (rising) and hdmi_tx_slow_clk (rising) may not meet (slack: -3.538 ns) the setup (max) timing requirement
+WARNING  : Clock domain between vid_clk_dvi2 (rising) and hdmi_tx_slow_clk (falling) may not meet (slack: -0.889 ns) the setup (max) timing requirement
+WARNING  : Clock domain between rxc (rising) and hdmi_tx_slow_clk (rising) may not meet (slack: -0.706 ns) the setup (max) timing requirement
+WARNING  : Clock domain between hdmi_tx_slow_clk (rising) and core_clk (rising) may not meet (slack: -1.144 ns) the setup (max) timing requirement
+WARNING  : Clock domain between hdmi_tx_slow_clk (rising) and rxc (rising) may not meet (slack: -1.040 ns) the setup (max) timing requirement
+INFO     : Write Timing Report to "outflow\ti60f225_oob.timing.rpt" ...
+INFO     : final timing analysis took 6.531662 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 8.640625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 450.788 MB, end = 588.908 MB, delta = 138.12 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 588.908 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 457.18 MB, end = 594.24 MB, delta = 137.06 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 594.244 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "outflow\ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "outflow\ti60f225_oob.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file work_pnr\ti60f225_oob.lbf.
+INFO     : Bitstream generation took 3.539317 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 3.421875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 375.012 MB, end = 569.532 MB, delta = 194.52 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 588.908 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 382.336 MB, end = 578.668 MB, delta = 196.332 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 594.276 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 196.6947478 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 925.734375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.108 MB, end = 569.532 MB, delta = 549.424 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 588.908 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 21.056 MB, end = 578.716 MB, delta = 557.66 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 594.276 MB [FlowMsg::RSSUsage::Peak]

@@ -1,0 +1,1583 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2013-2021 Efinix Inc. All rights reserved.
+//
+// Description:
+// Example top file for ti60f225 dev kit OOB design
+//
+// Language:  Verilog 2001
+//
+// ------------------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////////////////
+//`define SOFT_TAP 1
+
+
+`include "hyperram_controller_define.vh"
+module ti60f225_oob_top
+(
+   //Clocks 
+	input	wire	i_arstn,
+    input	wire	i_fb_clk,
+    input	wire	i_sysclk,
+    input	wire	i_sysclk_div_2,
+    input	wire	i_mipi_rx_pclk,
+    input	wire	i_pll_locked,
+   // output  wire    o_pll_RSTN,
+    
+    input	wire	i_mipi_clk,
+    input	wire	i_mipi_txc_sclk,
+    input	wire	i_mipi_txd_sclk,
+    input	wire	i_mipi_tx_pclk,
+    input	wire	i_mipi_tx_pll_locked,
+   // output  wire     o_mipi_tx_pll_RSTN,
+    
+    input	wire	i_hbramClk,
+    input	wire	i_hbramClk_cal,
+    input	wire	i_hbramClk90,
+    input	wire	i_hbramClk_pll_locked,
+    
+    input   wire    i_soc_clk,
+    
+
+    
+    output	wire	o_lcd_rstn,
+    //CSI Interface
+    input	wire	[NUM_CAM-1:0]	i_cam_sda,
+    output	wire	[NUM_CAM-1:0]	o_cam_sda_oe,
+    input	wire	[NUM_CAM-1:0]	i_cam_scl,
+    output	wire	[NUM_CAM-1:0]	o_cam_scl_oe,
+    output	wire	[NUM_CAM-1:0]	o_cam_rstn,
+    
+    input	wire	[NUM_CAM-1:0]	i_cam_ck_LP_P_IN,
+    input	wire	[NUM_CAM-1:0]	i_cam_ck_LP_N_IN,
+    output	wire	[NUM_CAM-1:0]	o_cam_ck_HS_TERM,
+    output	wire	[NUM_CAM-1:0]	o_cam_ck_HS_ENA,
+    input	wire	[NUM_CAM-1:0]	i_cam_ck_CLKOUT,
+    
+    input	wire	[7:0]			i_cam_d0_HS_IN_0,
+    input	wire	[7:0]			i_cam_d0_HS_IN_1,
+    input	wire	[7:0]			i_cam_d0_HS_IN_2,
+    input	wire	[7:0]			i_cam_d0_HS_IN_3,
+    input	wire	[NUM_CAM-1:0]	i_cam_d0_LP_P_IN,
+    input	wire	[NUM_CAM-1:0]	i_cam_d0_LP_N_IN,
+    output	wire	[NUM_CAM-1:0]	o_cam_d0_HS_TERM,
+    output	wire	[NUM_CAM-1:0]	o_cam_d0_HS_ENA,
+    output	wire	[NUM_CAM-1:0]	o_cam_d0_RST,
+    output	wire	[NUM_CAM-1:0]	o_cam_d0_FIFO_RD,
+    input	wire	[NUM_CAM-1:0]	i_cam_d0_FIFO_EMPTY,
+    
+    input	wire	[7:0]			i_cam_d1_HS_IN_0,
+    input	wire	[7:0]			i_cam_d1_HS_IN_1,
+    input	wire	[7:0]			i_cam_d1_HS_IN_2,
+    input	wire	[7:0]			i_cam_d1_HS_IN_3,
+    input	wire	[NUM_CAM-1:0]	i_cam_d1_LP_P_IN,
+    input	wire	[NUM_CAM-1:0]	i_cam_d1_LP_N_IN,
+    output	wire	[NUM_CAM-1:0]	o_cam_d1_HS_TERM,
+    output	wire	[NUM_CAM-1:0]	o_cam_d1_HS_ENA,
+    output	wire	[NUM_CAM-1:0]	o_cam_d1_RST,
+    output	wire	[NUM_CAM-1:0]	o_cam_d1_FIFO_RD,
+    input	wire	[NUM_CAM-1:0]	i_cam_d1_FIFO_EMPTY,
+    
+    
+    //DSI Interface
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_LP_P_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_LP_N_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_HS_OE,
+    output  wire    [7:0]           mipi_tx_clk0_HS_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_LP_P_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_LP_P_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_LP_P_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_P_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_LP_N_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_LP_N_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_LP_N_OUT,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_N_OUT,
+    output	wire	[7:0] 	mipi_tx_data0_HS_OUT_0,
+    output	wire	[7:0] 	mipi_tx_data1_HS_OUT_0,
+    output	wire	[7:0] 	mipi_tx_data2_HS_OUT_0,
+    output	wire	[7:0] 	mipi_tx_data3_HS_OUT_0,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_HS_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_HS_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_HS_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_HS_OE,
+    
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_RST,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_RST,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_RST,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_RST,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_RST,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_LP_P_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_clk_LP_N_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_LP_P_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data3_LP_N_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_LP_P_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data2_LP_N_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_LP_P_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data1_LP_N_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_P_OE,
+    output	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_N_OE,
+    
+    input  	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_P_IN,
+    input  	wire	[NUM_PANEL-1:0]	mipi_tx_data0_LP_N_IN,
+    
+    
+    //HyperRam IO Interface
+    output	wire	[2:0]   o_hbc_cal_SHIFT,
+    output	wire	[4:0]   o_hbc_cal_SHIFT_SEL,
+    output	wire	        o_hbc_cal_SHIFT_ENA,
+    output	wire	        o_hbramClk_pll_rstn,
+    
+    output	wire					hbc_rst_n,
+    output	wire					hbc_cs_n,
+    output	wire					hbc_ck_p_HI,
+    output	wire					hbc_ck_p_LO,
+    output	wire					hbc_ck_n_HI,
+    output	wire					hbc_ck_n_LO,
+    output	wire	[RAM_DBW/8-1:0] hbc_rwds_OUT_HI,
+    output	wire	[RAM_DBW/8-1:0] hbc_rwds_OUT_LO,
+    input	wire	[RAM_DBW/8-1:0] hbc_rwds_IN_HI,
+    input	wire	[RAM_DBW/8-1:0] hbc_rwds_IN_LO,
+
+    output	wire	[RAM_DBW/8-1:0] hbc_rwds_OE,
+    output	wire	[RAM_DBW-1:0]	hbc_dq_OUT_HI,
+    output	wire	[RAM_DBW-1:0]	hbc_dq_OUT_LO,
+    input	wire	[RAM_DBW-1:0]	hbc_dq_IN_HI,
+    input	wire	[RAM_DBW-1:0]	hbc_dq_IN_LO,
+    output	wire	[RAM_DBW-1:0]	hbc_dq_OE,
+    
+  
+    //USB3.0 Fx3 UVC Interface
+    output [2:0] uvc_control,
+    input uvc_in_reset,
+    input [2:0] uvc_status,
+    output uvc_vsync,
+    output uvc_hsync,
+    output [15:0] uvc_vdata,
+    
+    
+    input uvc_out_resetn_IN,
+    output uvc_out_resetn_OUT,
+    output uvc_out_resetn_OE,
+    
+    //SD Interface
+    output  wire                    sd_clk_hi,
+   // output  wire                    sd_clk_lo,
+    input                           sd_cmd_i,
+    output  wire                    sd_cmd_o,
+    output  wire                    sd_cmd_oe,
+    input           [3:0]           sd_dat_i,
+    output  wire    [3:0]           sd_dat_o,
+    output  wire    [3:0]           sd_dat_oe,
+    //input                         sd_wp,
+    //input                         sd_cd_n
+    
+    //SOC IO
+    output	wire    o_led0_r,
+    output	wire    o_led0_g,
+    output	wire    o_led0_b,
+    
+    output	wire    o_led1_r,
+    output	wire    o_led1_g,
+    output	wire    o_led1_b,
+    
+    input   i_sw0,
+    input   i_sw1,
+    input   i_sw2,
+       
+    output 					system_spi_0_io_sclk_write,
+    output 					system_spi_0_io_data_0_writeEnable,
+    input 					system_spi_0_io_data_0_read,
+    output 					system_spi_0_io_data_0_write,
+    output 					system_spi_0_io_data_1_writeEnable,
+    input 					system_spi_0_io_data_1_read,
+    output 					system_spi_0_io_data_1_write,  
+    output 					system_spi_0_io_ss,
+    
+    output              	system_uart_0_io_txd,
+    input               	system_uart_0_io_rxd,
+    
+    `ifndef SOFT_TAP
+    input               		jtag_inst1_TCK,
+    input               		jtag_inst1_TDI,
+    output              		jtag_inst1_TDO,
+    input               		jtag_inst1_SEL,
+    input               		jtag_inst1_CAPTURE,
+    input               		jtag_inst1_SHIFT,
+    input               		jtag_inst1_UPDATE,
+    input               		jtag_inst1_RESET
+    `else
+    input               		io_jtag_tms,
+    input               		io_jtag_tdi,
+    output              		io_jtag_tdo,
+    input               		io_jtag_tck
+    
+    `endif
+    
+    
+);
+
+function integer log2;
+	input	integer	val;
+	integer	i;
+	begin
+		log2 = 0;
+		for (i=0; 2**i<val; i=i+1)
+			log2 = i+1;
+	end
+endfunction
+
+parameter	MAX_HRES		= 12'd1080;
+parameter	MAX_VRES		= 12'd1920;
+parameter	HSP				= 8'd100;
+parameter	HBP				= 8'd100;
+parameter	HFP				= 8'd250;
+parameter	VSP				= 6'd3;
+parameter	VBP				= 6'd5;
+parameter	VFP				= 6'd6;
+
+parameter	NUM_CAM			= 1;
+parameter	NUM_PANEL		= 1;
+parameter	NUM_LANE		= 2;
+parameter	DATA_RATE		= 900;
+
+parameter	NUM_OF_POINT	= 4;
+
+localparam	HRES_WIDTH		= log2(MAX_HRES);
+localparam	VRES_WIDTH		= log2(MAX_VRES);
+
+
+
+
+assign	mipi_tx_clk_RST[0]		= ~w_arstn;
+assign	mipi_tx_data0_RST[0]	= ~w_arstn;
+assign	mipi_tx_data1_RST[0]	= ~w_arstn;
+assign	mipi_tx_data2_RST[0]	= ~w_arstn;
+assign	mipi_tx_data3_RST[0]	= ~w_arstn;
+assign	mipi_tx_clk_LP_P_OE[0]	= ~mipi_tx_clk_HS_OE[0];
+assign	mipi_tx_clk_LP_N_OE[0]	= ~mipi_tx_clk_HS_OE[0];
+
+
+
+assign	o_pll_RSTN	        = 1'b1;
+assign	o_mipi_tx_pll_RSTN	= 1'b1;
+assign	o_hbramClk_pll_rstn	= 1'b1;
+
+
+
+assign o_led0_r = w_soc_led[0];
+assign o_led0_g = w_soc_led[1];
+assign o_led0_b = w_soc_led[2];
+
+assign o_led1_r = w_soc_led[3];
+assign o_led1_g = w_soc_led[4];
+assign o_led1_b = w_soc_led[5];
+
+
+assign w_soc_switch = {2'b00,i_sw2, i_sw1,i_sw0};
+
+assign uvc_out_resetn_OUT = 1'b0;
+
+
+////////////////////////////////////////////////////////////////
+// System & Debugger
+wire    w_arstn;
+wire	w_sysclk_arstn;
+wire	w_sysclk_arst;
+wire	w_sysclk_mcu_arstn;
+wire	w_sysclk_mcu_arst;
+wire	w_fb_clk_arstn;
+wire	w_fb_clk_arst;
+wire	w_mipi_rx_pclk_arstn;
+wire	w_mipi_rx_pclk_arst;
+
+wire	w_jtag_inst1_TCK;
+//assign	w_jtag_inst1_TCK	= jtag_inst1_TCK;
+
+wire	w_vio_cam_sel;
+wire	w_vio_ch_sel;
+wire	w_vio_kernel_en;
+wire	w_vio_gray_sel;
+wire	w_vio_sobel_sel;
+wire	[7:0]w_vio_sobel_mask;
+wire	[2:0]w_vio_r_gain;
+wire	[2:0]w_vio_g_gain;
+wire	[2:0]w_vio_b_gain;
+wire	w_vio_dbg_sel;
+wire	w_vio_shift_en;
+wire	[8:0]w_vio_tape;
+wire	w_vio_map_sel;
+wire	w_vio_color_sel;
+wire	w_vio_sobel_ceil;
+wire	[3:0]	w_vio_sobel_pskip;
+wire	w_vio_sad_video_out;
+wire	w_vio_sad_video_map;
+wire	w_vio_debayer_sel;
+wire	[8:0]w_vio_data_R_shift;
+wire	[5:0]w_vio_edge_extension;
+wire	w_vio_sad_noise_en;
+wire	[7:0]w_vio_sad_noise;
+wire	[10:0]w_vio_R_y_start_wr;
+wire	[10:0]w_vio_L_y_start_wr;
+wire	[10:0]w_vio_R_y_start_rd;
+wire	[10:0]w_vio_L_y_start_rd;
+wire	w_vio_high_pass_en;
+wire	[5:0]w_vio_high_pass;
+wire	w_vio_sobel_src;
+wire	w_vio_sad_zero;
+wire	w_vio_sad_filter_en;
+wire	[7:0]w_vio_sad_filter;
+
+wire	[2:0]w_r_gain;
+wire	[2:0]w_g_gain;
+wire	[2:0]w_b_gain;
+
+////////////////////////////////////////////////////////////////
+// MIPI RX
+wire	[NUM_CAM*8-1:0]	w_cam_d0_HS_IN;
+wire	[NUM_CAM*8-1:0]	w_cam_d1_HS_IN;
+wire	[NUM_CAM-1:0]	w_cam_ck_arstn;
+wire	[NUM_CAM-1:0]	w_cam_ck_arst;
+
+assign	w_cam_d0_HS_IN		= {i_cam_d0_HS_IN_3, i_cam_d0_HS_IN_2, i_cam_d0_HS_IN_1, i_cam_d0_HS_IN_0};
+assign	w_cam_d1_HS_IN		= {i_cam_d1_HS_IN_3, i_cam_d1_HS_IN_2, i_cam_d1_HS_IN_1, i_cam_d1_HS_IN_0};
+
+wire	[1:0]			w_mipi_rx_vc	[0:NUM_CAM-1];
+wire	[5:0]			w_mipi_rx_dt	[0:NUM_CAM-1];
+wire	[NUM_CAM-1:0]	w_mipi_rx_vs;
+wire	[NUM_CAM-1:0]	w_mipi_rx_hs;
+wire	[NUM_CAM-1:0]	w_mipi_rx_de;
+wire	[63:0]			w_mipi_rx_data	[0:NUM_CAM-1];
+wire	[15:0]			w_mipi_rx_x		[0:NUM_CAM-1];
+wire	[11:0]			w_mipi_rx_y		[0:NUM_CAM-1];
+
+
+////////////////////////////////////////////////////////////////
+// Frame buffer
+wire	w_hbc_cal_pass;
+(* async_reg = "true" *)reg	r_hbc_cal_pass_1P;
+(* async_reg = "true" *)reg	r_hbc_cal_pass_2P;
+
+wire	w_fb_vga_gen_hs;
+wire	w_fb_vga_gen_vs;
+wire	w_fb_vga_gen_ah;
+wire	w_fb_vga_gen_de;
+
+wire	[7:0]			w_aid;
+wire	[31:0]			w_aaddr;
+wire	[7:0]			w_alen;
+wire	[2:0]			w_asize;
+wire	[1:0]			w_aburst;
+wire	[1:0]			w_alock;
+wire					w_avalid;
+wire					w_aready;
+wire					w_atype;
+
+wire	[7:0]			w_wid;
+wire	[AXI_DBW-1:0]	w_wdata;
+wire	[AXI_DBW/8-1:0]w_wstrb;
+wire					w_wlast;
+wire					w_wvalid;
+wire					w_wready;
+
+wire	[7:0]			w_rid;
+wire	[AXI_DBW-1:0]	w_rdata;
+wire					w_rlast;
+wire					w_rvalid;
+wire					w_rready;
+wire	[1:0]			w_rresp;
+
+wire	[7:0]			w_bid;
+wire					w_bvalid;
+wire					w_bready;
+
+wire	[1:0]	w_frame_buf_hs;
+wire	[1:0]	w_frame_buf_vs;
+wire	[1:0]	w_frame_buf_ah;
+wire	[1:0]	w_frame_buf_de;
+wire	[31:0]	w_frame_buf_data	[0:1];
+////////////////////////////////////////////////////////////////
+// Gain & Debayer
+wire	[1:0]	w_gain_vs;
+wire	[1:0]	w_gain_hs;
+wire	[1:0]	w_gain_ah;
+wire	[1:0]	w_gain_de;
+wire	[31:0]	w_gain_data	[0:1];
+
+reg		[1:0]	r_gain_vs_1P;
+reg		[1:0]	r_gain_hs_1P;
+reg		[1:0]	r_gain_ah_1P;
+reg		[1:0]	r_gain_de_1P;
+reg		[31:0]	r_gain_pixel_1P	[0:1];
+
+wire	[1:0]	w_debayer_lb_hs;
+wire	[1:0]	w_debayer_lb_vs;
+wire	[1:0]	w_debayer_lb_ah;
+wire	[1:0]	w_debayer_lb_de;
+wire	[15:0]	w_debayer_lb_p_11	[0:1];
+wire	[15:0]	w_debayer_lb_p_00	[0:1];
+wire	[15:0]	w_debayer_lb_p_01	[0:1];
+
+wire	[1:0]	w_debayer_hs;
+wire	[1:0]	w_debayer_vs;
+wire	[1:0]	w_debayer_ah;
+wire	[1:0]	w_debayer_de;
+wire	[10:0]	w_debayer_x		[0:1];
+wire	[10:0]	w_debayer_y		[0:1];
+wire	[15:0]	w_debayer_r		[0:1];
+wire	[15:0]	w_debayer_g		[0:1];
+wire	[15:0]	w_debayer_b		[0:1];
+
+reg		[1:0]	r_debayer_vs_1P;
+reg		[1:0]	r_debayer_hs_1P;
+reg		[1:0]	r_debayer_ah_1P;
+reg		[1:0]	r_debayer_de_1P;
+reg		[10:0]	r_debayer_x_1P	[0:1];
+reg		[10:0]	r_debayer_y_1P	[0:1];
+reg		[15:0]	r_debayer_r_1P	[0:1];
+reg		[15:0]	r_debayer_g_1P	[0:1];
+reg		[15:0]	r_debayer_b_1P	[0:1];
+
+reg		r_debayer_hs_2P;
+
+reg 			r_rstn_video;
+reg 			r_pack_vs_1P;
+reg 			r_pack_hs_1P;
+reg 	[10:0]	r_hs_cnt;
+reg 	[8:0]	r_frame_cnt	;
+
+wire	[1:0]	w_pack_valid;
+wire	[1:0]	w_pack_de;
+wire	[1:0]	w_pack_hs;
+wire	[1:0]	w_pack_vs;
+wire	[10:0]	w_pack_x	[0:1];
+wire	[10:0]	w_pack_y	[0:1];
+wire	[47:0]	w_pack_data	[0:1];
+
+////////////////////////////////////////////////////////////////
+// DSI Tx AXI
+
+wire	[31:0]	w_axi_rdata	[0:1];
+wire	[1:0]	w_axi_awready;
+wire	[1:0]	w_axi_wready;
+wire	[1:0]	w_axi_arready;
+wire	[1:0]	w_axi_rvalid;
+wire	[1:0]	w_axi_bvalid;
+
+wire	[6:0]	w_axi_awaddr[0:1];
+wire	[1:0]	w_axi_awvalid;
+wire	[31:0]	w_axi_wdata	[0:1];
+wire	[1:0]	w_axi_wvalid;
+wire	[1:0]	w_axi_bready;
+wire	[6:0]	w_axi_araddr[0:1];
+wire	[1:0]	w_axi_arvalid;
+wire	[1:0]	w_axi_rready;
+
+wire	w_confdone;
+
+////////////////////////////////////////////////////////////////
+
+
+
+
+wire					hbram_ready;
+wire 					mcuReset;
+wire					io_systemReset;
+wire					io_ddrMasterReset;
+wire   [1:0]    			io_ddrA_b_payload_resp;
+(* keep , syn_keep *) wire 	  	io_memoryReset /* synthesis syn_keep = 1 */;				
+(* keep , syn_keep *) wire [3:0]  	io_arw_payload_qos /* synthesis syn_keep = 1 */;
+(* keep , syn_keep *) wire [2:0]  	io_arw_payload_prot /* synthesis syn_keep = 1 */;
+(* keep , syn_keep *) wire [3:0]  	io_arw_payload_cache /* synthesis syn_keep = 1 */;
+(* keep , syn_keep *) wire [3:0]  	io_arw_payload_region /* synthesis syn_keep = 1 */;
+
+//DDR Control Workaround
+wire            			io_arw_valid;
+wire            			io_arw_ready;
+wire    [31:0]  			io_arw_payload_addr;
+wire    [7:0]   			io_arw_payload_id;
+wire    [7:0]   			io_arw_payload_len;
+wire    [2:0]   			io_arw_payload_size;
+wire    [1:0]   			io_arw_payload_burst;
+wire    [1:0]   			io_arw_payload_lock;
+wire            			io_arw_payload_write;
+wire    [7:0]   			io_w_payload_id;
+wire            			io_w_valid;
+wire            			io_w_ready;
+wire    [AXI_DBW-1:0]  		io_w_payload_data;
+wire    [AXI_DBW/8-1:0]   		io_w_payload_strb;
+wire            			io_w_payload_last;
+wire            			io_b_valid;
+wire            			io_b_ready;
+wire    [7:0]   			io_b_payload_id;
+wire            			io_r_valid;
+wire            			io_r_ready;
+wire    [AXI_DBW-1:0]  		io_r_payload_data;
+wire    [7:0]   			io_r_payload_id;
+wire    [1:0]   			io_r_payload_resp;
+wire            			io_r_payload_last;
+wire	[1:0]				io_b_payload_resp;
+
+
+wire    [5:0]               w_soc_led;
+wire 	[5:0]				w_soc_switch;
+wire    system_i2c_0_io_sda_write;
+wire    system_i2c_0_io_sda_read;
+wire    system_i2c_0_io_scl_write;
+wire    system_i2c_0_io_scl_read;
+
+
+assign system_i2c_0_io_sda_read = i_cam_sda[0];
+assign o_cam_sda_oe[0] = ~system_i2c_0_io_sda_write; 
+assign system_i2c_0_io_scl_read = i_cam_scl[0];
+assign o_cam_scl_oe[0] = ~system_i2c_0_io_scl_write; 
+
+
+wire w_mainReset;
+wire w_mainResetn;
+wire w_config_reset;
+wire w_config_resetn;
+
+
+assign w_arstn  = i_pll_locked & i_mipi_tx_pll_locked & i_hbramClk_pll_locked;
+assign w_mainReset = (w_hbc_cal_pass==1'b0) | (w_arstn==1'b0) ;
+//assign w_mainReset = (w_arstn==1'b0) ;
+assign w_mainResetn = ~w_mainReset; 
+assign w_config_reset = (i_pll_locked==1'b0) |  (w_hbc_cal_pass==1'b0) | (w_arstn==1'b0);
+assign w_config_resetn = ~w_config_reset;
+
+
+`define REST_COUNT         26
+`define RESET_LCD          26'd6250000
+`define RELEASE_RESET_LCD  26'd12500000
+`define RELEASE_RESET_ALL  26'd25000000
+
+
+reg 	r_rstn_video;
+reg 	[10:0]	r_hs_cnt;
+reg 	[8:0]	r_frame_cnt;
+
+reg		[`REST_COUNT-1:0]	r_rst_cnt;
+reg				r_lcd_rstn;
+reg				r_lcd_en;
+
+(* async_reg = "true" *) reg     r_release_resetn;
+
+		always@(negedge i_arstn or posedge i_fb_clk)
+		begin
+			if (~i_arstn)
+			begin
+				r_rst_cnt			<= {`REST_COUNT{1'b0}};
+				r_lcd_rstn			<= 1'b1;		
+				r_lcd_en			<= 1'b0;
+                r_release_resetn     <= 1'b0;
+			end
+			else
+			begin		
+            
+                if(w_mainReset==1'b0)
+                begin
+                    if(r_rst_cnt != {`REST_COUNT{1'b1}})
+                    begin
+                        r_rst_cnt	<= r_rst_cnt + 1'b1;
+                        if(r_rst_cnt == `RESET_LCD)
+                        begin
+                            r_lcd_rstn<= 1'b0;
+                        end
+                        else if (r_rst_cnt == `RELEASE_RESET_LCD)
+                        begin
+                             r_lcd_rstn<= 1'b1;
+                        end
+                        else if  (r_rst_cnt == `RELEASE_RESET_ALL)
+                        begin
+                            r_release_resetn <= 1'b1;
+                        end                       
+                    end
+                end
+                else 
+                begin
+                    r_rst_cnt		 <= {`REST_COUNT{1'b0}};
+                    r_release_resetn <= 1'b0;
+                    r_lcd_rstn		 <= 1'b1;
+                end
+            
+           
+			end
+		end
+
+
+
+reset_ctrl
+#(
+	.NUM_RST		(6),
+	.CYCLE			(1),
+	.IN_RST_ACTIVE	(6'b000000),
+	.OUT_RST_ACTIVE	(6'b101010)
+)
+inst_reset_ctrl
+(
+	.i_arst				({6{r_release_resetn}}),//({{4{i_pll_locked}},                  {2{i_arstn}}}),
+	.i_clk				({{2{i_mipi_rx_pclk}}, {2{i_fb_clk}}, {2{i_sysclk}}}),
+	.o_srst				({	w_mipi_rx_pclk_arst, w_mipi_rx_pclk_arstn,
+							w_fb_clk_arst,       w_fb_clk_arstn,
+							w_sysclk_arst,       w_sysclk_arstn})
+);
+
+
+reset_ctrl
+#(
+	.NUM_RST		(2),
+	.CYCLE			(10),
+	.IN_RST_ACTIVE	(2'b00),
+	.OUT_RST_ACTIVE	(2'b10)
+)
+inst_reset_mcu_ctrl
+(
+	.i_arst				({2{r_release_resetn}}),//({2{w_mainResetn}} ),
+	.i_clk				({2{i_soc_clk}}),
+	.o_srst				({w_sysclk_mcu_arst,w_sysclk_mcu_arstn})
+);
+
+
+assign	o_lcd_rstn	        = r_lcd_rstn;
+
+assign w_vio_map_sel = 1'b1;
+
+assign	w_r_gain	= (w_vio_map_sel)?	w_vio_r_gain:3'd7;
+assign	w_g_gain	= (w_vio_map_sel)?	w_vio_g_gain:3'd4;
+assign	w_b_gain	= (w_vio_map_sel)?	w_vio_b_gain:3'd6;
+
+////////////////////////////////////////////////////////////////
+
+
+
+
+genvar	j, k;
+generate
+	for (k=0; k<NUM_CAM; k=k+1)
+	begin
+		wire	w_cam_ck_HS_ENA;
+		wire	w_cam_ck_HS_TERM;
+		wire	[1:0]w_cam_d_HS_ENA;
+		wire	[1:0]w_cam_d_HS_TERM;
+		wire	[3:0]w_mipi_rx_vs_vc;
+		wire	[3:0]w_mipi_rx_hs_vc;
+		wire	[3:0]w_mipi_rx_de_vc;
+//		assign	o_cam_ck_HS_TERM[k]	= w_cam_ck_HS_TERM;
+//		assign	o_cam_d0_HS_TERM[k]	= w_cam_d_HS_TERM[0];
+//		assign	o_cam_d1_HS_TERM[k]	= w_cam_d_HS_TERM[1];
+		assign	o_cam_ck_HS_TERM[k]	= w_cam_ck_HS_ENA;
+		assign	o_cam_d0_HS_TERM[k]	= w_cam_d_HS_ENA[0];
+		assign	o_cam_d1_HS_TERM[k]	= w_cam_d_HS_ENA[1];
+		assign	o_cam_ck_HS_ENA[k]	= w_cam_ck_HS_ENA;
+		assign	o_cam_d0_HS_ENA[k]	= w_cam_d_HS_ENA[0];
+		assign	o_cam_d1_HS_ENA[k]	= w_cam_d_HS_ENA[1];
+		assign	o_cam_d0_RST[k]		= 1'b0;
+		assign	o_cam_d1_RST[k]		= 1'b0;
+		
+		reset
+		#(
+			.IN_RST_ACTIVE	("LOW"),
+			.OUT_RST_ACTIVE	("LOW"),
+			.CYCLE			(3)
+		)
+		inst_cam_ck_rstn
+		(
+			.i_arst	(r_release_resetn),
+			.i_clk	(i_cam_ck_CLKOUT[k]),
+			.o_srst	(w_cam_ck_arstn[k])
+		);
+		
+		reset
+		#(
+			.IN_RST_ACTIVE	("LOW"),
+			.OUT_RST_ACTIVE	("HIGH"),
+			.CYCLE			(3)
+		)
+		inst_cam_ck_rst
+		(
+			.i_arst	(r_release_resetn),
+			.i_clk	(i_cam_ck_CLKOUT[k]),
+			.o_srst	(w_cam_ck_arst[k])
+		);
+		
+		
+
+
+		assign o_cam_rstn[k]= ~w_fb_clk_arst;
+
+		
+		
+		(* async_reg = "true" *)reg		[1:0]r_mipi_rx_data_LP_P_IN_1P;
+		(* async_reg = "true" *)reg		[1:0]r_mipi_rx_data_LP_N_IN_1P;
+		(* async_reg = "true" *)reg		[15:0]r_mipi_rx_data_HS_IN_1P;
+		
+		(* async_reg = "true" *)reg		[1:0]r_mipi_rx_data_LP_P_IN_2P;
+		(* async_reg = "true" *)reg		[1:0]r_mipi_rx_data_LP_N_IN_2P;
+		(* async_reg = "true" *)reg		[15:0]r_mipi_rx_data_HS_IN_2P;
+		
+		always@(negedge i_arstn or posedge i_cam_ck_CLKOUT[k])
+		begin
+			if (~i_arstn)
+			begin
+				r_mipi_rx_data_LP_P_IN_1P	<= {2{1'b0}};
+				r_mipi_rx_data_LP_N_IN_1P	<= {2{1'b0}};
+				r_mipi_rx_data_HS_IN_1P		<= {16{1'b0}};
+				
+				r_mipi_rx_data_LP_P_IN_2P	<= {2{1'b0}};
+				r_mipi_rx_data_LP_N_IN_2P	<= {2{1'b0}};
+				r_mipi_rx_data_HS_IN_2P		<= {16{1'b0}};
+			end
+			else
+			begin
+				r_mipi_rx_data_LP_P_IN_1P	<= {i_cam_d1_LP_P_IN[k],    i_cam_d0_LP_P_IN[k]}; 
+				r_mipi_rx_data_LP_N_IN_1P	<= {i_cam_d1_LP_N_IN[k],    i_cam_d0_LP_N_IN[k]};
+				r_mipi_rx_data_HS_IN_1P		<= {w_cam_d1_HS_IN[k*8+:8], w_cam_d0_HS_IN[k*8+:8]};
+				
+				r_mipi_rx_data_LP_P_IN_2P	<= r_mipi_rx_data_LP_P_IN_1P;
+				r_mipi_rx_data_LP_N_IN_2P	<= r_mipi_rx_data_LP_N_IN_1P;
+				r_mipi_rx_data_HS_IN_2P		<= r_mipi_rx_data_HS_IN_1P;
+			end
+		end
+		
+
+		csi_rx_controller inst_efx_csi2_rx
+		(
+			.reset_n			(i_arstn),
+			.clk				(i_mipi_clk),
+			.reset_byte_HS_n	(i_arstn),
+			.clk_byte_HS		(i_cam_ck_CLKOUT[k]),
+			.reset_pixel_n		(w_mipi_rx_pclk_arstn),
+			.clk_pixel			(i_mipi_rx_pclk),
+			
+			.Rx_LP_CLK_P		(i_cam_ck_LP_P_IN[k]),
+			.Rx_LP_CLK_N		(i_cam_ck_LP_N_IN[k]),
+			.Rx_HS_enable_C		(w_cam_ck_HS_ENA),
+			.LVDS_termen_C		(w_cam_ck_HS_TERM),
+			
+			.Rx_LP_D_P			(r_mipi_rx_data_LP_P_IN_2P),
+			.Rx_LP_D_N			(r_mipi_rx_data_LP_N_IN_2P),
+			.Rx_HS_D_0			(r_mipi_rx_data_HS_IN_2P[0*8+:8]),
+			.Rx_HS_D_1			(r_mipi_rx_data_HS_IN_2P[1*8+:8]),
+			.Rx_HS_D_2			(),
+			.Rx_HS_D_3			(),
+			.Rx_HS_D_4			(),
+			.Rx_HS_D_5			(),
+			.Rx_HS_D_6			(),
+			.Rx_HS_D_7			(),
+			.Rx_HS_enable_D		( w_cam_d_HS_ENA),
+			.LVDS_termen_D		( w_cam_d_HS_TERM),
+			.fifo_rd_enable		({o_cam_d1_FIFO_RD[k],    o_cam_d0_FIFO_RD[k]}),
+			.fifo_rd_empty		({i_cam_d1_FIFO_EMPTY[k], i_cam_d0_FIFO_EMPTY[k]}),
+			.DLY_enable_D		(),
+			.DLY_inc_D			(),
+			.u_dly_enable_D		(),
+			.u_dly_inc_D		(),
+			
+			.axi_clk			(1'b0),
+			.axi_reset_n		(1'b0),
+			.axi_awaddr			(6'b0),
+			.axi_awvalid		(1'b0),
+			.axi_awready		(),
+			.axi_wdata			(32'b0),
+			.axi_wvalid			(1'b0),
+			.axi_wready			(),
+			
+			.axi_bvalid			(),
+			.axi_bready			(1'b0),
+			.axi_araddr			(6'b0),
+			.axi_arvalid		(1'b0),
+			.axi_arready		(),
+			.axi_rdata			(),
+			.axi_rvalid			(),
+			.axi_rready			(1'b0),
+			
+			.hsync_vc0			(w_mipi_rx_hs[k]),
+			.hsync_vc1			(),
+			.hsync_vc2			(),
+			.hsync_vc3			(),
+			.vsync_vc0			(w_mipi_rx_vs[k]),
+			.vsync_vc1			(),
+			.vsync_vc2			(),
+			.vsync_vc3			(),
+			.vc					(w_mipi_rx_vc[k]),
+			.word_count			(),
+			.shortpkt_data_field(),
+			.datatype			(w_mipi_rx_dt[k]),
+			.pixel_per_clk		(),
+			.pixel_data			(w_mipi_rx_data[k][39:0]),
+			.pixel_data_valid	(w_mipi_rx_de[k]),
+			.irq				()
+		);
+		
+		reg		[10:0]			r_rx_x_mipi	[0:NUM_CAM-1];
+		reg		[10:0]			r_rx_y_mipi	[0:NUM_CAM-1];
+		reg		[NUM_CAM-1:0]	r_rx_hs;
+		reg		[NUM_CAM-1:0]	r_rx_valid;
+		reg		[NUM_CAM-1:0]	r_rx_vs;		
+		
+		always@(negedge w_mipi_rx_pclk_arstn or posedge i_mipi_rx_pclk)
+		begin
+			if (~w_mipi_rx_pclk_arstn)
+			begin
+				r_rx_x_mipi[k]	<= {11{1'b0}};
+				r_rx_y_mipi[k]	<= {11{1'b0}};
+				r_rx_hs[k]		<= 1'b0;
+				r_rx_valid[k]	<= 1'b0;
+				r_rx_vs[k]		<= 1'b0;
+			end
+			else
+			begin
+				r_rx_vs[k]		<= w_mipi_rx_vs[k];
+				r_rx_hs[k]		<= w_mipi_rx_hs[k];
+				r_rx_valid[k]	<= w_mipi_rx_de[k];
+				
+				if (w_mipi_rx_hs[k])
+				begin
+					if (w_mipi_rx_de[k])
+						r_rx_x_mipi[k]	<= r_rx_x_mipi[k] + 1'b1;
+				end	
+				else
+					r_rx_x_mipi[k]	<= {11{1'b0}};
+				
+				if (w_mipi_rx_hs[k] && !r_rx_hs[k])
+					r_rx_y_mipi[k]	<= r_rx_y_mipi[k] + 1'b1;
+										
+				if (!w_mipi_rx_vs[k] && r_rx_vs[k])
+					r_rx_y_mipi[k]	<= {11{1'b0}};
+			end
+		end
+	
+	end
+	
+	for (j=0; j<NUM_PANEL; j=j+1)
+	begin
+		rgb_gain
+		#(
+			.P_DEPTH(8),
+			.PW		(32)
+		)
+		inst_rgb_gain
+		(
+			.i_pclk		(i_sysclk),
+			.i_arstn	(w_sysclk_arstn),
+			.i_hs		(w_frame_buf_hs[j]),
+			.i_vs		(w_frame_buf_vs[j]),
+			.i_de		(w_frame_buf_ah[j]),
+			.i_valid	(w_frame_buf_de[j]),
+			.i_data		(w_frame_buf_data[j][31:0]),
+			
+			.blue_gain	(w_r_gain),
+			.green_gain	(w_g_gain),
+			.red_gain	(w_b_gain),
+			
+			.o_hs		(w_gain_hs[j]),
+			.o_vs		(w_gain_vs[j]),
+			.o_de		(w_gain_ah[j]),
+			.o_valid	(w_gain_de[j]),
+			.o_data		(w_gain_data[j])
+		);
+
+		always@(negedge w_sysclk_arstn or posedge i_sysclk)
+		begin
+			if (~w_sysclk_arstn)
+			begin
+				r_gain_vs_1P[j]		<= 1'b0;
+				r_gain_hs_1P[j]		<= 1'b0;
+				r_gain_ah_1P[j]		<= 1'b0;
+				r_gain_de_1P[j]		<= 1'b0;
+				r_gain_pixel_1P[j]	<= {32{1'b0}};
+			end
+			else
+			begin
+				r_gain_vs_1P[j]		<= w_gain_vs[j];
+				r_gain_hs_1P[j]		<= w_gain_hs[j];
+				r_gain_ah_1P[j]		<= w_gain_ah[j];
+				if (w_gain_de[j])
+				begin
+					r_gain_pixel_1P[j][31:24]	<= w_gain_data[j][31:24];
+					r_gain_pixel_1P[j][23:16]	<= w_gain_data[j][23:16];
+					r_gain_pixel_1P[j][15: 8]	<= w_gain_data[j][15: 8];
+					r_gain_pixel_1P[j][ 7: 0]	<= w_gain_data[j][ 7: 0];
+					r_gain_de_1P[j]		<= 1'b1;
+				end
+				else
+				begin
+					r_gain_pixel_1P[j]	<= {{8{1'b0}}, r_gain_pixel_1P[j][31:8]};
+					if (w_gain_ah[j])
+						r_gain_de_1P[j]	<= ~r_gain_de_1P[j];
+					else
+						r_gain_de_1P[j]	<= 1'b0;
+				end
+			end
+		end
+
+
+     /*   reg r_test_hs_1P;
+        reg r_test_hs_2P;
+
+        reg r_test_vs_1P;
+        reg r_test_vs_2P;
+
+        
+        reg [19:0] r_test_vs_count;
+        reg [19:0] r_test_hs_count;
+
+        
+        always@(negedge w_sysclk_arstn or posedge i_sysclk)
+		begin
+			if (~w_sysclk_arstn)
+			begin
+				r_test_hs_1P		<= 1'b0;
+				r_test_hs_2P		<= 1'b0;
+				r_test_vs_1P		<= 1'b0;
+				r_test_vs_2P     	<= 1'b0;
+				r_test_hs_count   	<= {20{1'b0}};
+                r_test_vs_count   	<= {20{1'b0}};
+			end
+			else
+			begin
+                r_test_hs_1P <= r_gain_hs_1P[j];
+                r_test_hs_2P <= r_test_hs_1P;
+                
+                 r_test_vs_1P <= r_gain_vs_1P[j];
+                r_test_vs_2P <= r_test_vs_1P;
+                
+                if(r_test_vs_1P & ~r_test_vs_2P)
+                begin
+                    r_test_vs_count   	<= {20{1'b0}};
+                    r_test_hs_count	    <= {20{1'b0}};
+                end
+                
+                if(r_test_hs_1P & ~r_test_hs_2P)
+                begin
+                    r_test_vs_count   	<= r_test_vs_count +1'b1;
+                    r_test_hs_count	    <= {20{1'b0}};
+                end
+                else if(r_test_hs_1P)
+                begin
+                    r_test_hs_count   	<= r_test_hs_count +1'b1;
+                  
+                
+                end
+                
+			end
+		end*/
+        
+        
+		line_buffer
+		#(
+			.P_DEPTH	(8),
+			.X_CNT_WIDTH(10)
+		)
+		inst_line_buffer_debayer
+		(
+			.i_arstn	(w_sysclk_arstn),
+			.i_pclk		(i_sysclk),
+			
+			.i_vsync	(r_gain_vs_1P[j]),
+			.i_hsync	(r_gain_hs_1P[j]),
+			.i_de		(r_gain_ah_1P[j]),
+			.i_valid	(r_gain_de_1P[j]),
+			.i_p		(r_gain_pixel_1P[j][15:0]),
+			
+			.o_vsync	(w_debayer_lb_vs[j]),
+			.o_hsync	(w_debayer_lb_hs[j]),
+			.o_de		(w_debayer_lb_ah[j]),
+			.o_valid	(w_debayer_lb_de[j]),
+			.o_p_11		(w_debayer_lb_p_11[j]),
+			.o_p_00		(w_debayer_lb_p_00[j]),
+			.o_p_01		(w_debayer_lb_p_01[j])
+		);
+		
+       
+        
+		raw_to_rgb
+		#(
+			.P_DEPTH	(8),
+			.LEGACY		(1'b1)
+		)
+		inst_raw_to_rgb
+		(
+			.i_arstn	(w_sysclk_arstn),
+			.i_pclk		(i_sysclk),
+			
+			.i_r_addn	(1'b0),
+			.i_r_gain	(8'b0),
+			.i_r_shift	(1'b0),
+			.i_g_addn	(1'b0),
+			.i_g_gain	(8'b0),
+			.i_g_shift	(1'b0),
+			.i_b_addn	(1'b0),
+			.i_b_gain	(8'b0),
+			.i_b_shift	(1'b0),
+			
+			.i_vsync	(w_debayer_lb_vs[j]),
+			.i_hsync	(w_debayer_lb_hs[j]),
+			.i_de		(w_debayer_lb_ah[j]),
+			.i_valid	(w_debayer_lb_de[j]),
+			.i_p_11		(w_debayer_lb_p_11[j]),
+			.i_p_00		(w_debayer_lb_p_00[j]),
+			.i_p_01		(w_debayer_lb_p_01[j]),
+			
+			.o_dbg_valid			(),
+			.o_dbg_bayer_11_01_0P_0	(),
+			.o_dbg_bayer_11_01_0P_1	(),
+			.o_dbg_bayer_00_01_0P_0	(),
+			.o_dbg_bayer_00_01_0P_1	(),
+			.o_dbg_bayer_01_01_0P_0	(),
+			.o_dbg_bayer_01_01_0P_1	(),
+			.o_dbg_bayer_11_00_1P_0	(),
+			.o_dbg_bayer_11_00_1P_1	(),
+			.o_dbg_bayer_00_00_1P_0	(),
+			.o_dbg_bayer_00_00_1P_1	(),
+			.o_dbg_bayer_01_00_1P_0	(),
+			.o_dbg_bayer_01_00_1P_1	(),
+			.o_dbg_bayer_11_11_2P_0	(),
+			.o_dbg_bayer_11_11_2P_1	(),
+			.o_dbg_bayer_00_11_2P_0	(),
+			.o_dbg_bayer_00_11_2P_1	(),
+			.o_dbg_bayer_01_11_2P_0	(),
+			.o_dbg_bayer_01_11_2P_1	(),
+			
+			.o_vsync	(w_debayer_vs[j]),
+			.o_hsync	(w_debayer_hs[j]),
+			.o_de		(w_debayer_ah[j]),
+			.o_valid	(w_debayer_de[j]),
+			.o_x_cnt	(w_debayer_x[j]),
+			.o_y_cnt	(w_debayer_y[j]),
+			.o_r		(w_debayer_r[j]),
+			.o_g		(w_debayer_g[j]),
+			.o_b		(w_debayer_b[j])
+		);
+        
+		always@(negedge w_sysclk_arstn or posedge i_sysclk_div_2)
+		begin
+			if (~w_sysclk_arstn)
+			begin
+				r_debayer_vs_1P[j]		<= 1'b0;
+				r_debayer_hs_1P[j]		<= 1'b0;
+				r_debayer_ah_1P[j]		<= 1'b0;
+				r_debayer_de_1P[j]		<= 1'b0;
+				r_debayer_x_1P[j]		<= {11{1'b0}};
+				r_debayer_y_1P[j]		<= {11{1'b0}};
+				r_debayer_r_1P[j]		<= {16{1'b0}};
+				r_debayer_g_1P[j]		<= {16{1'b0}};
+				r_debayer_b_1P[j]		<= {16{1'b0}};
+				
+				r_rstn_video			<= 1'b0;
+				r_hs_cnt				<= {11{1'b0}};
+				r_frame_cnt				<= {9{1'b0}};
+			end
+			else
+			begin
+				r_debayer_vs_1P[j]		<= w_debayer_vs[j];
+				r_debayer_hs_1P[j]		<= w_debayer_hs[j];
+				r_debayer_ah_1P[j]		<= w_debayer_ah[j];
+				r_debayer_de_1P[j]		<= w_debayer_de[j];
+				r_debayer_x_1P[j]		<= w_debayer_x[j];
+				r_debayer_y_1P[j]		<= w_debayer_y[j];
+				r_debayer_r_1P[j]		<= w_debayer_r[j];
+				r_debayer_g_1P[j]		<= w_debayer_g[j];
+				r_debayer_b_1P[j]		<= w_debayer_b[j];
+									
+				if ((r_debayer_y_1P[0] == MAX_VRES - 1) && (r_debayer_x_1P[0] == MAX_HRES/2 - 1))
+					r_frame_cnt	<= r_frame_cnt + 1'b1;
+							
+				if 	(r_frame_cnt[0] && w_debayer_hs[0] && ~r_debayer_hs_1P[0])
+					r_hs_cnt	<= r_hs_cnt + 1'b1;
+				
+				if (r_hs_cnt == VFP)
+					r_rstn_video	<= 1'b1;
+			end
+		end
+		
+	//	assign	o_led	= r_frame_cnt[5];
+		
+		/* Panel driver initialization */
+		panel_config
+		#(
+			.INITIAL_CODE	("rtl/panel/panel_config.mem"),
+			.REG_DEPTH		(9'd15)
+		)
+		inst_panel_config
+		(
+			.i_axi_clk		(i_fb_clk			),
+			.i_restn		(w_fb_clk_arstn		),
+			
+			.i_axi_awready	(w_axi_awready[j]	),
+			.i_axi_wready	(w_axi_wready[j]	),
+			.i_axi_bvalid	(w_axi_bvalid[j]	),
+			.o_axi_awaddr	(w_axi_awaddr[j]	),
+			.o_axi_awvalid	(w_axi_awvalid[j]	),
+			.o_axi_wdata	(w_axi_wdata[j]		),
+			.o_axi_wvalid	(w_axi_wvalid[j]	),
+			.o_axi_bready	(w_axi_bready[j]	),
+			
+			.i_axi_arready	(w_axi_arready[j]	),
+			.i_axi_rdata	(w_axi_rdata[j]		),
+			.i_axi_rvalid	(w_axi_rvalid[j]	),
+			.o_axi_araddr	(w_axi_araddr[j]	),
+			.o_axi_arvalid	(w_axi_arvalid[j]	),
+			.o_axi_rready	(w_axi_rready[j]	),
+			
+			.o_addr_cnt		(			),
+			.o_state		(			),
+			.o_confdone		(w_confdone	),
+			
+			.i_dbg_we		(0	),
+			.i_dbg_din		(0	),
+			.i_dbg_addr		(0	),
+			.o_dbg_dout		(	),
+			.i_dbg_reconfig	(0	)
+		);
+		
+		/* MIPI TX Channel */
+		efx_dsi_tx
+
+		inst_efx_dsi_tx
+		(
+			.reset_n			(w_sysclk_arstn	),
+			.clk				(i_mipi_clk),		// 100
+			.reset_byte_HS_n	(w_sysclk_arstn	),
+			.clk_byte_HS		(i_mipi_tx_pclk),	// 1000/8=125
+			.reset_pixel_n		(r_rstn_video	),
+			.clk_pixel			(i_sysclk_div_2	),  // 1000/16=62.5
+			// LVDS clock lane   
+			.Tx_LP_CLK_P		(mipi_tx_clk_LP_P_OUT[j]),
+			.Tx_LP_CLK_N		(mipi_tx_clk_LP_N_OUT[j]),
+			.Tx_HS_enable_C		(mipi_tx_clk_HS_OE[j]),
+			.Tx_HS_C            (mipi_tx_clk0_HS_OUT),
+			// ----- DLane -----------
+			// LVDS data lane
+			.Tx_LP_D_P			({mipi_tx_data3_LP_P_OUT[j], mipi_tx_data2_LP_P_OUT[j], mipi_tx_data1_LP_P_OUT[j], mipi_tx_data0_LP_P_OUT[j]}),
+			.Tx_LP_D_P_OE       ({mipi_tx_data3_LP_P_OE[j], mipi_tx_data2_LP_P_OE[j], mipi_tx_data1_LP_P_OE[j], mipi_tx_data0_LP_P_OE[j]}),
+			.Tx_LP_D_N			({mipi_tx_data3_LP_N_OUT[j], mipi_tx_data2_LP_N_OUT[j], mipi_tx_data1_LP_N_OUT[j], mipi_tx_data0_LP_N_OUT[j]}),
+			.Tx_LP_D_N_OE       ({mipi_tx_data3_LP_N_OE[j], mipi_tx_data2_LP_N_OE[j], mipi_tx_data1_LP_N_OE[j], mipi_tx_data0_LP_N_OE[j]}),
+			.Tx_HS_D_0			(mipi_tx_data0_HS_OUT_0),
+			.Tx_HS_D_1			(mipi_tx_data1_HS_OUT_0),
+			.Tx_HS_D_2			(mipi_tx_data2_HS_OUT_0),
+			.Tx_HS_D_3			(mipi_tx_data3_HS_OUT_0),
+		//	.Tx_HS_D_4			(),
+		//	.Tx_HS_D_5			(),
+		//	.Tx_HS_D_6			(),
+		//	.Tx_HS_D_7			(),
+			// control signal to LVDS IO
+			.Tx_HS_enable_D		({mipi_tx_data3_HS_OE[j], mipi_tx_data2_HS_OE[j], mipi_tx_data1_HS_OE[j], mipi_tx_data0_HS_OE[j]}),
+			.Rx_LP_D_P			(mipi_tx_data0_LP_P_IN[j]),
+			.Rx_LP_D_N			(mipi_tx_data0_LP_N_IN[j]),
+			
+			//AXI4-Lite Interface
+			.axi_clk		(i_fb_clk			), 
+			.axi_reset_n	(w_fb_clk_arstn		),
+			.axi_awaddr		(w_axi_awaddr[j]	),//Write Address. byte address.
+			.axi_awvalid	(w_axi_awvalid[j]	),//Write address valid.
+			.axi_awready	(w_axi_awready[j]	),//Write address ready.
+			.axi_wdata		(w_axi_wdata[j]		),//Write data bus.
+			.axi_wvalid		(w_axi_wvalid[j]	),//Write valid.
+			.axi_wready		(w_axi_wready[j]	),//Write ready.
+								  
+			.axi_bvalid		(w_axi_bvalid[j]	),//Write response valid.
+			.axi_bready		(w_axi_bready[j]	),//Response ready.      
+			.axi_araddr		(w_axi_araddr[j]	),//Read address. byte address.
+			.axi_arvalid	(w_axi_arvalid[j]	),//Read address valid.
+			.axi_arready	(w_axi_arready[j]	),//Read address ready.
+			.axi_rdata		(w_axi_rdata[j]		),//Read data.
+			.axi_rvalid		(w_axi_rvalid[j]	),//Read valid.
+			.axi_rready		(w_axi_rready[j]	),//Read ready.
+			
+			.hsync				(~r_debayer_hs_1P[j]),	//(~w_pack_hs[j]			),
+			.vsync				(~r_debayer_vs_1P[j]),	//(~w_pack_vs[j]			),
+			.vc					(2'b0					),
+			.datatype			(6'h3E					),   // data type of the Long Packet
+			.pixel_data			({16'b0, r_debayer_r_1P[j][15:8], r_debayer_g_1P[j][15:8], r_debayer_b_1P[j][15:8], r_debayer_r_1P[j][7:0], r_debayer_g_1P[j][7:0], r_debayer_b_1P[j][7:0]}),	//({16'b0, w_pack_data[j]}),
+			.pixel_data_valid	(r_debayer_ah_1P[j]),	//(w_pack_valid[j]		),
+			.haddr				(1080					),
+			.TurnRequest_dbg    (1'b0					),
+			.TurnRequest_done	(),
+			.irq				()
+		);		
+	end
+endgenerate
+
+////////////////////////////////////////////////////////////////
+always@(negedge w_sysclk_arstn or posedge i_sysclk)
+begin
+	if (~w_sysclk_arstn)
+	begin
+		r_hbc_cal_pass_1P	<= 1'b0;
+		r_hbc_cal_pass_2P	<= 1'b0;
+	end
+	else
+	begin
+		r_hbc_cal_pass_1P	<= w_hbc_cal_pass;
+		r_hbc_cal_pass_2P	<= r_hbc_cal_pass_1P;
+	end
+end
+
+
+
+
+
+wire [13:0]		w_uvc_X_START;
+wire [13:0]		w_uvc_X_WIN;
+wire [13:0]		w_uvc_Y_START;
+wire [13:0]		w_uvc_Y_WIN;
+  
+
+top_soc_oob
+#(
+
+    .MAX_HRES(MAX_HRES),
+    .MAX_VRES(MAX_VRES),
+    .HSP(HSP),
+    .HBP(HBP),
+    .HFP(HFP),
+    .VSP(VSP),
+    .VBP(VBP),
+    .VFP(VFP)
+)
+
+ inst_soc_oob(
+	
+	//Clock Control
+	.io_systemClk		(i_soc_clk),
+	.io_asyncReset		(w_sysclk_mcu_arst),
+	.io_memoryClk		(i_hbramClk),
+	.io_memoryReset		(io_memoryReset), 
+    .io_systemReset     (io_systemReset),
+    .vga_reset          (w_confdone),
+
+	//Memory Interface
+	.io_ddrA_arw_valid			(io_arw_valid),
+	.io_ddrA_arw_ready			(io_arw_ready),
+	.io_ddrA_arw_payload_addr	(io_arw_payload_addr),
+	.io_ddrA_arw_payload_id		(io_arw_payload_id),
+	.io_ddrA_arw_payload_region	(io_arw_payload_region),
+	.io_ddrA_arw_payload_len	(io_arw_payload_len),
+	.io_ddrA_arw_payload_size	(io_arw_payload_size),
+	.io_ddrA_arw_payload_burst	(io_arw_payload_burst),
+	.io_ddrA_arw_payload_lock	(io_arw_payload_lock),
+	.io_ddrA_arw_payload_cache	(io_arw_payload_cache),
+	.io_ddrA_arw_payload_qos	(io_arw_payload_qos),
+	.io_ddrA_arw_payload_prot	(io_arw_payload_prot),
+	.io_ddrA_arw_payload_write	(io_arw_payload_write),
+	.io_ddrA_w_valid			(io_w_valid),
+	.io_ddrA_w_ready			(io_w_ready),
+	.io_ddrA_w_payload_data		(io_w_payload_data),
+	.io_ddrA_w_payload_strb		(io_w_payload_strb),
+	.io_ddrA_w_payload_last		(io_w_payload_last),
+	.io_ddrA_b_valid			(io_b_valid),
+	.io_ddrA_b_ready			(io_b_ready),
+	.io_ddrA_b_payload_id		(io_b_payload_id),
+	.io_ddrA_b_payload_resp		(io_b_payload_resp),
+	.io_ddrA_r_valid			(io_r_valid),
+	.io_ddrA_r_ready			(io_r_ready),
+	.io_ddrA_r_payload_data		(io_r_payload_data),
+	.io_ddrA_r_payload_id		(io_r_payload_id),
+	.io_ddrA_r_payload_resp		(io_r_payload_resp),
+	.io_ddrA_r_payload_last		(io_r_payload_last),
+	.io_ddrA_w_payload_id		(io_w_payload_id),
+
+	
+	//user custom ports
+    .o_LED(w_soc_led),					//Bit [3:0]
+	.i_switch(w_soc_switch),
+
+	//Reg 2 RGB Gain Control
+	.o_red_gain(w_vio_r_gain),				//Bit [2:0]
+	.o_green_gain(w_vio_g_gain),			//Bit [6:4]
+	.o_blue_gain(w_vio_b_gain),				//Bit [10:8]
+  
+    //UVC Control
+	.o_uvc_resetn(uvc_out_resetn_OE),
+  
+    .i_uvc_status(uvc_status),
+	.o_uvc_control(uvc_control),
+	  
+	.o_uvc_X_START(w_uvc_X_START),
+	.o_uvc_X_WIN(w_uvc_X_WIN),
+	.o_uvc_Y_START(w_uvc_Y_START),
+	.o_uvc_Y_WIN(w_uvc_Y_WIN),
+    
+	//SOC Ports
+		//Uart
+	.system_uart_0_io_txd		(system_uart_0_io_txd),
+	.system_uart_0_io_rxd		(system_uart_0_io_rxd),
+  
+		//SPI 0
+	.system_spi_0_io_sclk_write			(system_spi_0_io_sclk_write),
+	.system_spi_0_io_data_0_writeEnable	(system_spi_0_io_data_0_writeEnable),
+	.system_spi_0_io_data_0_read		(system_spi_0_io_data_0_read),
+	.system_spi_0_io_data_0_write		(system_spi_0_io_data_0_write),
+	.system_spi_0_io_data_1_writeEnable	(system_spi_0_io_data_1_writeEnable),
+	.system_spi_0_io_data_1_read		(system_spi_0_io_data_1_read),
+	.system_spi_0_io_data_1_write		(system_spi_0_io_data_1_write),  
+	.system_spi_0_io_ss					(system_spi_0_io_ss),  
+	  
+      //I2C
+        
+    .system_i2c_0_io_sda_write	    (system_i2c_0_io_sda_write),
+    .system_i2c_0_io_sda_read	    (system_i2c_0_io_sda_read),
+    .system_i2c_0_io_scl_write	    (system_i2c_0_io_scl_write),
+    .system_i2c_0_io_scl_read	    (system_i2c_0_io_scl_read),
+   
+	  
+	//Video Stream Input
+       
+    .in_vclk    (i_mipi_rx_pclk),
+	.in_0_x_wr  (),
+	.in_0_y_wr  (),
+	.in_0_wr_en (w_mipi_rx_de	[0]),
+    .in_0_vs    (w_mipi_rx_vs    [0]),
+	.in_0_hs    (w_mipi_rx_hs	[0]),
+	.in_0_wr_00 (w_mipi_rx_data	[0][9:2]),
+	.in_0_wr_01 (w_mipi_rx_data	[0][19:12]),
+	.in_0_wr_10 (w_mipi_rx_data	[0][29:22]),
+	.in_0_wr_11 (w_mipi_rx_data	[0][39:32]),
+	
+    
+	//Video Stream Output
+    .out_vclk   (i_sysclk),
+    .out_0_de		(w_frame_buf_ah		[0]),
+	.out_0_valid	(w_frame_buf_de		[0]),
+	.out_0_hsync	(w_frame_buf_hs		[0]),
+	.out_0_vsync	(w_frame_buf_vs		[0]),
+	.out_0_rd_00	(w_frame_buf_data	[0][7:0]),
+	.out_0_rd_01	(w_frame_buf_data	[0][15:8]),
+	.out_0_rd_10	(w_frame_buf_data	[0][23:16]),
+	.out_0_rd_11	(w_frame_buf_data	[0][31:24]),
+    
+    //SD Card Host Access
+    .sd_base_clk(i_mipi_clk),
+    .sd_clk_hi(sd_clk_hi),
+	.sd_clk_lo(sd_clk_lo),
+	.sd_cmd_i(sd_cmd_i),
+	.sd_cmd_o(sd_cmd_o),
+	.sd_cmd_oe(sd_cmd_oe),
+	.sd_dat_i(sd_dat_i),
+	.sd_dat_o(sd_dat_o),
+	.sd_dat_oe(sd_dat_oe),
+	.sd_wp(),
+	.sd_cd_n(),
+    
+    
+`ifndef SOFT_TAP
+	.jtagCtrl_tck		(jtag_inst1_TCK),
+	.jtagCtrl_tdi		(jtag_inst1_TDI),
+	.jtagCtrl_tdo		(jtag_inst1_TDO),
+	.jtagCtrl_enable	(jtag_inst1_SEL),
+	.jtagCtrl_capture	(jtag_inst1_CAPTURE),
+	.jtagCtrl_shift		(jtag_inst1_SHIFT),
+	.jtagCtrl_update	(jtag_inst1_UPDATE),
+	.jtagCtrl_reset		(jtag_inst1_RESET)
+`else
+	.io_jtag_tck		(io_jtag_tck),
+	.io_jtag_tdi		(io_jtag_tdi),
+	.io_jtag_tdo		(io_jtag_tdo),
+	.io_jtag_tms		(io_jtag_tms)
+`endif
+);
+
+
+
+
+/*
+hbram_top
+#(    
+    .MHZ(MHZ),
+	.RAM_DBW(RAM_DBW),
+	.RAM_ABW(RAM_ABW),
+    
+	.CR0_DPD(CR0_DPD),
+	.CR0_ODS(CR0_ODS),
+	.CR0_ILC(CR0_ILC),
+	.CR0_FLE(CR0_FLE),
+	.CR0_HBE(CR0_HBE),
+	.CR0_WBL(CR0_WBL),
+	.CR1_MCT(CR1_MCT),
+	.CR1_HSE(CR1_HSE),
+	.CR1_PAR(CR1_PAR),
+      
+	.AXI_DBW(AXI_DBW),
+	.AXI_AWR_DEPTH(AXI_AWR_DEPTH),
+	.AXI_W_DEPTH(AXI_W_DEPTH),
+	.AXI_R_DEPTH(AXI_R_DEPTH),
+    
+	.DDIN_MODE(DDIN_MODE),
+    .RDO_DELAY(RDO_DELAY),
+	
+    .CAL_CLK_CH(CAL_CLK_CH),
+	.CAL_MODE(CAL_MODE),
+	.CAL_DQ_STEPS(CAL_DQ_STEPS),
+	.CAL_RWDS_STEPS(CAL_RWDS_STEPS),
+	.CAL_BYTES(CAL_BYTES),
+	.TCSM(TCSM),
+	.TVCS(TVCS),
+	.TRH(TRH),
+	.TRTR(TRTR)
+    
+)hbram_top_inst (*/
+
+/*
+hbram_top
+#(
+	.RAM_DBW		(RAM_DBW		),
+	.RAM_ABW		(RAM_ABW		),
+	.CR0_DPD(CR0_DPD),
+	.CR0_ODS(CR0_ODS),
+	.CR0_ILC(CR0_ILC),
+	.CR0_FLE(CR0_FLE),
+	.CR0_HBE(CR0_HBE),
+	.CR0_WBL(CR0_WBL),
+	.CR1_MCT(CR1_MCT),
+	.CR1_HSE(CR1_HSE),
+	.CR1_PAR(CR1_PAR),
+	.AXI_DBW		(AXI_DBW		),
+	.AXI_AWR_DEPTH 	(AXI_AWR_DEPTH	),
+	.AXI_W_DEPTH   	(AXI_W_DEPTH	),
+	.AXI_R_DEPTH	(AXI_R_DEPTH	),
+	.DDIN_MODE(DDIN_MODE),
+//	.RDO_DELAY		(RDO_DELAY		),
+//	.CAL_MODE		(CAL_MODE		),
+//	.CAL_DQ_STEPS	(CAL_DQ_STEPS	),
+//	.CAL_RWDS_STEPS	(CAL_RWDS_STEPS),
+//	.TCYC			(TCYC			),
+	.TCSM			(TCSM			),
+	.TVCS			(TVCS			),
+	.TRH			(TRH			),
+	.TRTR			(TRTR			)
+    **************************************
+    .AXI_DBW (128),
+	.DDIN_MODE (0),
+	.AXI_AWR_DEPTH (16),
+	.AXI_R_DEPTH (256),
+	.AXI_W_DEPTH (256),
+	.CAL_CLK_CH (4),
+	.CAL_DQ_STEPS (8),
+	.CAL_MODE (2),
+	.CAL_RWDS_STEPS (8),
+	.CR0_DPD (1),
+	.CR0_FLE (1),
+	.CR0_ILC (2),
+	.CR0_HBE (1),
+	.CR0_ODS (0),
+	.CR1_HSE (0),
+	.CR0_WBL (3),
+	.CR1_PAR (0),
+	.CR1_MCT (1),
+	.RAM_ABW (25),
+	.RAM_DBW (16),
+	.RDO_DELAY (4),
+	.TRH (200000),
+	.TRTR (40000),
+	.TVCS (150000000),
+	.CAL_BYTES (200),
+	.MHZ (200),
+	.TCSM (4000000)
+    
+)hbram_top_inst (
+*/
+hyperram_controller hbram_top_inst (
+
+//hbram_controller hbram_top_inst (
+//hbram_top hbram_top_inst (
+    .rst					(~i_hbramClk_pll_locked),
+	.ram_clk				(i_hbramClk), 
+	.ram_clk_cal			(i_hbramClk_cal), 
+	.io_axi_clk				(i_hbramClk),
+    
+    .io_arw_valid		    (io_arw_valid		),
+    .io_arw_ready		    (io_arw_ready		),
+    .io_arw_payload_addr	(io_arw_payload_addr	),
+    .io_arw_payload_id	    (io_arw_payload_id	),
+    .io_arw_payload_len	    (io_arw_payload_len	),
+    .io_arw_payload_size	(io_arw_payload_size	),
+    .io_arw_payload_burst	(io_arw_payload_burst	),
+    .io_arw_payload_lock	(io_arw_payload_lock	),
+    .io_arw_payload_write	(io_arw_payload_write	),
+    .io_w_payload_id	    (io_w_payload_id	),
+    .io_w_valid		        (io_w_valid		),
+    .io_w_ready		        (io_w_ready		),
+    .io_w_payload_data	    (io_w_payload_data	),
+    .io_w_payload_strb	    (io_w_payload_strb	),
+    .io_w_payload_last	    (io_w_payload_last	),
+    .io_b_valid		        (io_b_valid		),
+    .io_b_ready		        (io_b_ready		),
+    .io_b_payload_id	    (io_b_payload_id	),
+    .io_r_valid		        (io_r_valid		),
+    .io_r_ready		        (io_r_ready		),
+    .io_r_payload_data	    (io_r_payload_data	),
+    .io_r_payload_id	    (io_r_payload_id	),
+    .io_r_payload_resp	    (io_r_payload_resp	),
+    .io_r_payload_last	    (io_r_payload_last	),    
+
+
+	.hbc_cal_SHIFT_ENA		(o_hbc_cal_SHIFT_ENA),
+	.hbc_cal_SHIFT			(o_hbc_cal_SHIFT),
+	.hbc_cal_SHIFT_SEL		(o_hbc_cal_SHIFT_SEL),
+	.hbc_cal_pass			(w_hbc_cal_pass),
+	.hbc_rst_n				(hbc_rst_n), 
+	.hbc_cs_n				(hbc_cs_n),
+	
+	.hbc_ck_p_HI			(hbc_ck_p_HI),
+	.hbc_ck_p_LO			(hbc_ck_p_LO),
+	.hbc_ck_n_HI			(hbc_ck_n_HI),
+	.hbc_ck_n_LO			(hbc_ck_n_LO),
+	.hbc_rwds_OUT_HI		(hbc_rwds_OUT_HI),
+	.hbc_rwds_OUT_LO		(hbc_rwds_OUT_LO),
+	.hbc_rwds_IN_HI			(hbc_rwds_IN_HI),
+	.hbc_rwds_IN_LO			(hbc_rwds_IN_LO),
+	.hbc_rwds_OE			(hbc_rwds_OE),
+	.hbc_dq_OUT_HI			(hbc_dq_OUT_HI),
+	.hbc_dq_OUT_LO			(hbc_dq_OUT_LO),
+	.hbc_dq_IN_HI			(hbc_dq_IN_HI),
+	.hbc_dq_IN_LO			(hbc_dq_IN_LO),
+	.hbc_dq_OE				(hbc_dq_OE)    
+    
+);
+
+
+
+uvc_generator
+#(
+	.P_DEPTH(16),
+	.HRES_WIDTH(13),
+	.VRES_WIDTH(13),
+	.UVC_P_DEPTH(16)
+)
+inst_uvc_generator
+(
+	.i_arst(w_sysclk_arst),
+	.i_arstn(w_sysclk_arstn),
+	.i_sysclk(i_sysclk),
+	
+	.i_uvc_clk(i_mipi_clk),
+	
+    .X_START(w_uvc_X_START),
+	.X_WIN(w_uvc_X_WIN),
+	.Y_START(w_uvc_Y_START),
+	.Y_WIN(w_uvc_Y_WIN),
+    
+	
+	.in_x(w_debayer_x[0]),
+	.in_y(w_debayer_y[0]),
+	
+    .in_vs(w_debayer_vs[0]),
+	.in_hs(w_debayer_hs[0]),
+	.in_de(w_debayer_ah[0]),
+	.in_data_r(w_debayer_b[0]),
+	.in_data_g(w_debayer_g[0]),
+	.in_data_b(w_debayer_r[0]),	
+	
+    
+	.vsync(uvc_vsync),
+	.hsync(uvc_hsync),
+	.vdata(uvc_vdata)
+	
+);
+
+
+
+endmodule

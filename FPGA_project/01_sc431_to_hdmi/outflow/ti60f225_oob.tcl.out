@@ -1,0 +1,2 @@
+INFO     : Reading project database "E:/jiaofu/20261018/02-fpga/01_sc431_to_hdmi/ti60f225_oob.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 14 [FlowMsg::MaxThreads]

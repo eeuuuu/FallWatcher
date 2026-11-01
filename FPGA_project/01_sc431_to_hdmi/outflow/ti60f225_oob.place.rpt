@@ -1,0 +1,73 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.2.288 
+Date: Sun Oct 18 17:42:40 2026
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: ti60f225_oob
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: outflow\ti60f225_oob-hierarchical_stats.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|    jtag_inst1_RESET    |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|   jtag_inst1_UPDATE    |    Input     |
+|        rx_dv_LO        |    Input     |
+|           FB           |    Input     |
+|   pll_inst4_CLKOUT0    |    Input     |
+|    i_cam_ck_LP_P_IN    |    Input     |
+|    i_cam_ck_LP_N_IN    |    Input     |
+|      ddr_addr[15]      |    Output    |
+| mipi_dp_data0_LP_P_IN  |    Input     |
+| mipi_dp_data0_LP_N_IN  |    Input     |
+|      ddr_addr[14]      |    Output    |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|    pll_inst4_RSTN    |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+---------- Resource Summary (begin) ----------
+Inputs: 124 / 1703 (7.28%)
+Outputs: 393 / 2267 (17.34%)
+Global Clocks (GBUF): 17 / 32 (53.12%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 50991 / 60800 (83.87%)
+	XLRs needed for Logic: 22355 / 60800 (36.77%)
+	XLRs needed for Logic + FF: 9548 / 60800 (15.70%)
+	XLRs needed for Adder: 5139 / 60800 (8.45%)
+	XLRs needed for Adder + FF: 1119 / 60800 (1.84%)
+	XLRs needed for FF: 11681 / 60800 (19.21%)
+	XLRs needed for SRL8: 1149 / 14720 (7.81%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 223 / 256 (87.11%)
+DSP Blocks: 22 / 160 (13.75%)
+---------- Resource Summary (end) ----------
+

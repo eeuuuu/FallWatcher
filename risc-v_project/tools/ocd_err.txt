@@ -1,0 +1,16 @@
+Open On-Chip Debugger 0.11.0+dev-04058-ge6c19f2ee-dirty (2025-10-15-15:30)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "jtag". To override use 'transport select <transport>'.
+Info : set servers polling period to 50ms
+Info : clock speed 800 kHz
+Info : JTAG tap: fpga_spinal.bridge tap/device found: 0x10660a79 (mfg: 0x53c (Efinix Inc), part: 0x0660, ver: 0x1)
+[fpga_spinal.cpu0] Target successfully examined.
+Info : starting gdb server for fpga_spinal.cpu0 on 3333
+Info : Listening on port 3333 for gdb connections
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : accepting 'gdb' connection on tcp/3333
+Warn : Target Descriptions Supported, but disabled
+Info : dropped 'gdb' connection

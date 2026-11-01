@@ -1,0 +1,824 @@
+clock {
+  name: "core_clk"
+  period: 10000
+  target_pin {
+    cell: "core_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tx_cal_clk_90edge"
+  period: 2500
+  target_pin {
+    cell: "tx_cal_clk_90edge"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "sdram_clk"
+  period: 2500
+  target_pin {
+    cell: "sdram_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "rx_cal_clk"
+  period: 2500
+  target_pin {
+    cell: "rx_cal_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tx_cal_clk"
+  period: 2500
+  target_pin {
+    cell: "tx_cal_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_100m"
+  period: 10000
+  target_pin {
+    cell: "clk_100m"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "i_mipi_txc_sclk"
+  period: 2000
+  rising_edge: 750
+  falling_edge: 1750
+  target_pin {
+    cell: "i_mipi_txc_sclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "i_mipi_txd_sclk"
+  period: 2000
+  rising_edge: 250
+  falling_edge: 1250
+  target_pin {
+    cell: "i_mipi_txd_sclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "i_mipi_tx_pclk"
+  period: 8000
+  target_pin {
+    cell: "i_mipi_tx_pclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "vid_clk_dvi2"
+  period: 14286
+  target_pin {
+    cell: "vid_clk_dvi2"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "CLK_5M"
+  period: 200000
+  target_pin {
+    cell: "CLK_5M"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "i_mipi_rx_pclk"
+  period: 20000
+  target_pin {
+    cell: "i_mipi_rx_pclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "hdmi_tx_slow_clk"
+  period: 7143
+  target_pin {
+    cell: "hdmi_tx_slow_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "hdmi_tx_fast_clk"
+  period: 1429
+  rising_edge: 357
+  falling_edge: 1071
+  target_pin {
+    cell: "hdmi_tx_fast_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 126
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tx_cal_clk"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "vid_clk_dvi2"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CLK_5M"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sdram_clk"
+  }
+  to {
+    clock: "rx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "tx_cal_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "vid_clk_dvi2"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "CLK_5M"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "rx_cal_clk"
+  }
+  to {
+    clock: "sdram_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_tx_pclk"
+  }
+  to {
+    clock: "i_mipi_rx_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "i_mipi_rx_pclk"
+  }
+  to {
+    clock: "i_mipi_tx_pclk"
+  }
+  analysis: BOTH
+}

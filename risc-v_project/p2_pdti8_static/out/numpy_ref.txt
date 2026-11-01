@@ -1,0 +1,7 @@
+[0] person=88 no_person=-91 person expect=person OK
+[1] person=-40 no_person=38 no_person expect=no_person OK
+[2] person=58 no_person=-59 person expect=person OK
+[3] person=28 no_person=-29 person expect=person OK
+[4] person=-28 no_person=26 no_person expect=no_person OK
+[5] person=-96 no_person=95 no_person expect=no_person OK
+6/6

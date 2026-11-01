@@ -1,0 +1,25 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 ch0_de $end
+$var wire 1 1 ch0_hs $end
+$var wire 1 2 ch0_vs $end
+$var wire 8 3 ch0_b $end
+$var wire 8 4 ch0_g $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+11
+12
+b00000000 3
+b00000000 4
+$end
+#2047
+00
+11
+12
+b00000000 3
+b00000000 4

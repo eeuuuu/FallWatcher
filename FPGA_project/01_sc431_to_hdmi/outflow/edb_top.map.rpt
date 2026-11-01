@@ -1,0 +1,316 @@
+Efinity Synthesis report for project edb_top
+Version: 2025.2.288
+Generated at: Oct 06, 2026 00:13:48
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : edb_top
+
+family : Titanium
+device : Ti60F225
+project : edb_top
+root : edb_top
+I,include : ip/csi_rx_controller
+I,include : ip/dsi_tx
+I,include : D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+gen-mark-debug-json : 0
+output-dir : outflow
+project : edb_top
+root : edb_top
+work-dir : D:\FPGA\cursor\prj_38\02-fpga\01_sc431_to_hdmi\work_dbg
+write-postmap-module : D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.post.vdb
+
+File List:
+
+D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.v
+
+### ### Report Section Start ### ###
+
+"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.v:479)
+"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.v:479)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 60
+Total number of FFs with enable signals: 1183
+CE signal <ceg_net2>, number of controlling flip flops: 3
+CE signal <ceg_net5>, number of controlling flip flops: 6
+CE signal <la1/n1800>, number of controlling flip flops: 22
+CE signal <la1/n8286>, number of controlling flip flops: 21
+CE signal <ceg_net8>, number of controlling flip flops: 64
+CE signal <la1/op_reg_en>, number of controlling flip flops: 4
+CE signal <la1/n2741>, number of controlling flip flops: 10
+CE signal <la1/n1667>, number of controlling flip flops: 64
+CE signal <la1/la_biu_inst/n384>, number of controlling flip flops: 13
+CE signal <la1/la_biu_inst/data_o_en>, number of controlling flip flops: 42
+CE signal <la1/n2726>, number of controlling flip flops: 3
+CE signal <la1/word_ct_en>, number of controlling flip flops: 16
+CE signal <la1/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <~ceg_net50>, number of controlling flip flops: 26
+CE signal <la1/la_biu_inst/fifo_push>, number of controlling flip flops: 12
+CE signal <la1/n2939>, number of controlling flip flops: 10
+CE signal <la1/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 12
+CE signal <la1/n3639>, number of controlling flip flops: 3
+CE signal <la1/n3654>, number of controlling flip flops: 10
+CE signal <la1/la_biu_inst/n2089>, number of controlling flip flops: 12
+CE signal <la1/n3852>, number of controlling flip flops: 10
+CE signal <la1/n4552>, number of controlling flip flops: 3
+CE signal <la1/n4567>, number of controlling flip flops: 10
+CE signal <la1/n4765>, number of controlling flip flops: 10
+CE signal <la1/n5465>, number of controlling flip flops: 3
+CE signal <la1/n5480>, number of controlling flip flops: 10
+CE signal <la1/n5678>, number of controlling flip flops: 10
+CE signal <ceg_net14>, number of controlling flip flops: 1
+CE signal <la1/addr_ct_en>, number of controlling flip flops: 27
+CE signal <la1/n1150>, number of controlling flip flops: 64
+CE signal <ceg_net51>, number of controlling flip flops: 1
+CE signal <la1/tu_trigger>, number of controlling flip flops: 64
+CE signal <la1/trigger_skipper_n/equal_6/n127>, number of controlling flip flops: 1
+CE signal <ceg_net19>, number of controlling flip flops: 32
+CE signal <la0/n1764>, number of controlling flip flops: 22
+CE signal <ceg_net26>, number of controlling flip flops: 6
+CE signal <ceg_net29>, number of controlling flip flops: 3
+CE signal <la0/n4342>, number of controlling flip flops: 21
+CE signal <ceg_net32>, number of controlling flip flops: 64
+CE signal <la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <la0/n1631>, number of controlling flip flops: 64
+CE signal <~ceg_net53>, number of controlling flip flops: 26
+CE signal <la0/la_biu_inst/fifo_push>, number of controlling flip flops: 12
+CE signal <la0/n2620>, number of controlling flip flops: 3
+CE signal <la0/la_biu_inst/data_o_en>, number of controlling flip flops: 3
+CE signal <la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <la0/la_biu_inst/n345>, number of controlling flip flops: 13
+CE signal <la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 12
+CE signal <la0/la_biu_inst/n2082>, number of controlling flip flops: 12
+CE signal <la0/addr_ct_en>, number of controlling flip flops: 27
+CE signal <la0/n1114>, number of controlling flip flops: 64
+CE signal <ceg_net38>, number of controlling flip flops: 1
+CE signal <ceg_net55>, number of controlling flip flops: 1
+CE signal <la0/tu_trigger>, number of controlling flip flops: 64
+CE signal <la0/trigger_skipper_n/equal_6/n127>, number of controlling flip flops: 1
+CE signal <ceg_net43>, number of controlling flip flops: 32
+CE signal <debug_hub_inst/n96>, number of controlling flip flops: 82
+CE signal <debug_hub_inst/n267>, number of controlling flip flops: 4
+CE signal <debug_hub_inst/n265>, number of controlling flip flops: 1
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 18
+Total number of FFs with set/reset signals: 1225
+SR signal <edb_soft_reset>, number of controlling flip flops: 811
+SR signal <la1/la_resetn>, number of controlling flip flops: 54
+SR signal <la1/n2643>, number of controlling flip flops: 2
+SR signal <la1/la_biu_inst/n2096>, number of controlling flip flops: 1
+SR signal <la1/la_biu_inst/fifo_rstn>, number of controlling flip flops: 25
+SR signal <la1/la_biu_inst/fifo_with_read_inst/n926>, number of controlling flip flops: 37
+SR signal <la1/n8771>, number of controlling flip flops: 1
+SR signal <la1/ts_resetn>, number of controlling flip flops: 64
+SR signal <la1/trigger_skipper_n/n469>, number of controlling flip flops: 1
+SR signal <la0/la_resetn>, number of controlling flip flops: 15
+SR signal <la0/la_biu_inst/n2096>, number of controlling flip flops: 1
+SR signal <la0/n2607>, number of controlling flip flops: 2
+SR signal <la0/la_biu_inst/fifo_with_read_inst/n731>, number of controlling flip flops: 37
+SR signal <la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 25
+SR signal <la0/n4787>, number of controlling flip flops: 1
+SR signal <la0/ts_resetn>, number of controlling flip flops: 64
+SR signal <la0/trigger_skipper_n/n469>, number of controlling flip flops: 1
+SR signal <bscan_RESET>, number of controlling flip flops: 83
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$i12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$l12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$s12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$r12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$m12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$j12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$p12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$d12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$k12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$n12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$o12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$g12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$t1' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$2' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$q12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$e12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$f12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b12' WE[1] tied off to 0.
+Memory instance 'la1/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$h12' WE[1] tied off to 0.
+Memory instance 'la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram' WE[1] tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.v (5660)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i25
+@ "D:/FPGA/cursor/prj_38/02-fpga/01_sc431_to_hdmi/work_dbg/debug_top.v (5599)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF Output: la1/data_from_biu[41](=0)
+FF Output: la1/data_from_biu[42](=0)
+FF Output: la1/data_from_biu[43](=0)
+FF Output: la1/data_from_biu[44](=0)
+FF Output: la1/data_from_biu[45](=0)
+FF Output: la1/data_from_biu[46](=0)
+FF Output: la1/data_from_biu[47](=0)
+FF Output: la1/data_from_biu[48](=0)
+FF Output: la1/data_from_biu[49](=0)
+FF Output: la1/data_from_biu[50](=0)
+FF Output: la1/data_from_biu[51](=0)
+FF Output: la1/data_from_biu[52](=0)
+FF Output: la1/data_from_biu[53](=0)
+FF Output: la1/data_from_biu[54](=0)
+FF Output: la1/data_from_biu[55](=0)
+FF Output: la1/data_from_biu[56](=0)
+FF Output: la1/data_from_biu[57](=0)
+FF Output: la1/data_from_biu[58](=0)
+FF Output: la1/data_from_biu[59](=0)
+FF Output: la1/data_from_biu[60](=0)
+FF Output: la1/data_from_biu[61](=0)
+FF Output: la1/data_from_biu[62](=0)
+FF Output: la1/data_from_biu[63](=0)
+FF Output: la0/data_from_biu[2](=0)
+FF Output: la0/data_from_biu[3](=0)
+FF Output: la0/data_from_biu[4](=0)
+FF Output: la0/data_from_biu[5](=0)
+FF Output: la0/data_from_biu[6](=0)
+FF Output: la0/data_from_biu[7](=0)
+FF Output: la0/data_from_biu[8](=0)
+FF Output: la0/data_from_biu[9](=0)
+FF Output: la0/data_from_biu[10](=0)
+FF Output: la0/data_from_biu[11](=0)
+FF Output: la0/data_from_biu[12](=0)
+FF Output: la0/data_from_biu[13](=0)
+FF Output: la0/data_from_biu[14](=0)
+FF Output: la0/data_from_biu[15](=0)
+FF Output: la0/data_from_biu[16](=0)
+FF Output: la0/data_from_biu[17](=0)
+FF Output: la0/data_from_biu[18](=0)
+FF Output: la0/data_from_biu[19](=0)
+FF Output: la0/data_from_biu[20](=0)
+FF Output: la0/data_from_biu[21](=0)
+FF Output: la0/data_from_biu[22](=0)
+FF Output: la0/data_from_biu[23](=0)
+FF Output: la0/data_from_biu[24](=0)
+FF Output: la0/data_from_biu[25](=0)
+FF Output: la0/data_from_biu[26](=0)
+FF Output: la0/data_from_biu[27](=0)
+FF Output: la0/data_from_biu[28](=0)
+FF Output: la0/data_from_biu[29](=0)
+FF Output: la0/data_from_biu[30](=0)
+FF Output: la0/data_from_biu[31](=0)
+FF Output: la0/data_from_biu[32](=0)
+FF Output: la0/data_from_biu[33](=0)
+FF Output: la0/data_from_biu[34](=0)
+FF Output: la0/data_from_biu[35](=0)
+FF Output: la0/data_from_biu[36](=0)
+FF Output: la0/data_from_biu[37](=0)
+FF Output: la0/data_from_biu[38](=0)
+FF Output: la0/data_from_biu[39](=0)
+FF Output: la0/data_from_biu[40](=0)
+FF Output: la0/data_from_biu[41](=0)
+FF Output: la0/data_from_biu[42](=0)
+FF Output: la0/data_from_biu[43](=0)
+FF Output: la0/data_from_biu[44](=0)
+FF Output: la0/data_from_biu[45](=0)
+FF Output: la0/data_from_biu[46](=0)
+FF Output: la0/data_from_biu[47](=0)
+FF Output: la0/data_from_biu[48](=0)
+FF Output: la0/data_from_biu[49](=0)
+FF Output: la0/data_from_biu[50](=0)
+FF Output: la0/data_from_biu[51](=0)
+FF Output: la0/data_from_biu[52](=0)
+FF Output: la0/data_from_biu[53](=0)
+FF Output: la0/data_from_biu[54](=0)
+FF Output: la0/data_from_biu[55](=0)
+FF Output: la0/data_from_biu[56](=0)
+FF Output: la0/data_from_biu[57](=0)
+FF Output: la0/data_from_biu[58](=0)
+FF Output: la0/data_from_biu[59](=0)
+FF Output: la0/data_from_biu[60](=0)
+FF Output: la0/data_from_biu[61](=0)
+FF Output: la0/data_from_biu[62](=0)
+FF Output: la0/data_from_biu[63](=0)
+FF instance: la1/la_biu_inst/fifo_with_read_inst/segment_rd_pointer[12]~FF(unreachable)
+FF instance: la1/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[12]~FF(unreachable)
+FF instance: la1/address_counter[27]~FF(unreachable)
+FF instance: la1/address_counter[28]~FF(unreachable)
+FF instance: la1/address_counter[29]~FF(unreachable)
+FF instance: la1/address_counter[30]~FF(unreachable)
+FF instance: la1/address_counter[31]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_rd_pointer[12]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[12]~FF(unreachable)
+FF instance: la0/address_counter[27]~FF(unreachable)
+FF instance: la0/address_counter[28]~FF(unreachable)
+FF instance: la0/address_counter[29]~FF(unreachable)
+FF instance: la0/address_counter[30]~FF(unreachable)
+FF instance: la0/address_counter[31]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                              FFs      SRLs      ADDs       LUTs    COMB4s      RAMs DSP/MULTs
+------------------------------------------------------------        ---      ----      ----       ----      ----      ---- ---------
+edb_top:edb_top                                                 1372(0)     41(0)    329(0)    2199(0)      0(0)     22(0)      0(0)
+ +la0:edb_la_top_c3b120401c7e4465a919ddf347ddb11f(DATA_DE...   517(315)      1(0)   166(43)   921(369)      0(0)      1(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32_c3b120401c7e4465a919ddf347ddb11f     32(32)      0(0)      0(0)     36(36)      0(0)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_c...       8(8)      0(0)      0(0)       8(8)      0(0)      0(0)      0(0)
+  +trigger_tu:trigger_unit_c3b120401c7e4465a919ddf347ddb1...       1(1)      0(0)      0(0)       1(1)      0(0)      0(0)      0(0)
+  +trigger_skipper_n:trigger_skipper_c3b120401c7e4465a919...     65(65)      0(0)    63(63)   222(222)      0(0)      0(0)      0(0)
+  +la_biu_inst:la_biu_c3b120401c7e4465a919ddf347ddb11f(CA...     96(34)      1(0)     60(0)   285(166)      0(0)      1(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read_c3b120401c7e4465a9...     62(62)      1(1)    60(60)    119(83)      0(0)      1(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit_c3b1...       0(0)      0(0)      0(0)     35(35)      0(0)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_c...       0(0)      0(0)      0(0)       1(1)      0(0)      1(1)      0(0)
+ +la1:edb_la_top_c3b120401c7e4465a919ddf347ddb11f_renamed...   768(443)     40(0)   163(43)  1217(428)      0(0)     21(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32_c3b120401c7e4465a919ddf347ddb11f     32(32)      0(0)      0(0)     37(37)      0(0)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_c...     23(23)      0(0)      0(0)     49(49)      0(0)      0(0)      0(0)
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit_c...     23(23)      0(0)      0(0)     49(49)      0(0)      0(0)      0(0)
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit_c...     23(23)      0(0)      0(0)     49(49)      0(0)      0(0)      0(0)
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit_c...     23(23)      0(0)      0(0)     49(49)      0(0)      0(0)      0(0)
+  +trigger_tu:trigger_unit_c3b120401c7e4465a919ddf347ddb1...       1(1)      0(0)      0(0)       7(7)      0(0)      0(0)      0(0)
+  +trigger_skipper_n:trigger_skipper_c3b120401c7e4465a919...     65(65)      0(0)    63(63)   222(222)      0(0)      0(0)      0(0)
+  +la_biu_inst:la_biu_c3b120401c7e4465a919ddf347ddb11f(CA...    135(73)     40(0)     57(0)   327(164)      0(0)     21(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read_c3b120401c7e4465a9...     62(62)    40(40)    57(57)    163(80)      0(0)     21(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit_c3b1...       0(0)      0(0)      0(0)     43(43)      0(0)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_c...       0(0)      0(0)      0(0)     40(40)      0(0)    21(21)      0(0)
+ +debug_hub_inst:debug_hub_c3b120401c7e4465a919ddf347ddb11f      87(87)      0(0)      0(0)     61(61)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+     Clock      Flip-Flops      Shift-Regs    Memory PortsMultipliers/DSPs
+     -----      ----------      ----------    ----------------------------
+ bscan_TCK             898               0               0               0
+   la1_clk             318              40              42               0
+   la0_clk             156               1               2               0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	53
+OUTPUT PORTS    : 	1
+
+EFX_ADD         : 	329
+EFX_LUT4        : 	2199
+   1-2  Inputs  : 	461
+   3    Inputs  : 	568
+   4    Inputs  : 	1170
+EFX_FF          : 	1372
+EFX_SRL8        : 	41
+EFX_RAM10       : 	22
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 11s
+Elapsed synthesis time : 11s

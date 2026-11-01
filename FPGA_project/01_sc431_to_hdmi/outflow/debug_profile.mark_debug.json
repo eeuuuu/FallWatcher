@@ -1,0 +1,34 @@
+{
+    "session": {
+        "wizard": {
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "jtag_user": "USER1",
+            "selected_nets": [
+                {
+                    "clk_domain": "rxc",
+                    "mark_debug": 1,
+                    "name": "dbg_rx_dv",
+                    "path": [
+                        "u_eth_host"
+                    ],
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "width": 1
+                },
+                {
+                    "clk_domain": "u_eth_host/gmii_tx_clk",
+                    "mark_debug": 1,
+                    "name": "dbg_tx_en",
+                    "path": [
+                        "u_eth_host"
+                    ],
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "width": 1
+                }
+            ],
+            "src": "elaborate",
+            "top_module": "ti60f225_oob_top"
+        }
+    }
+}

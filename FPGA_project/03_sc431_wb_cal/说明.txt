@@ -1,0 +1,11 @@
+本目录是白平衡标定工程，不是出厂产品画面。
+
+用途：HDMI 正中大红框 + 灰卡，配合「06-助手工具」里的白平衡助手，读 ROI 的 R/G/B 均值并调增益。
+产品运行请用同级目录 01_sc431_to_hdmi，不要把本工程当成日常固件长期留在板上。
+
+烧写（Efinity Programmer 图形界面）：
+  文件：outflow\ti60f225_oob.hex
+  模式：SPI Active using JTAG Bridge
+  地址：0x000000
+  勾选 Auto configure JTAG Bridge Image
+  标定完成后，再按 01-doc《Flash烧写操作指导》把产品 FPGA 和 RISC-V 写回 Flash。

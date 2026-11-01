@@ -1,0 +1,30 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Oct 06, 2026 00:13:48
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	        FFs	      SRLs	      ADDs	       LUTs	    COMB4s	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	   1372(0)	    41(0)	   329(0)	   2199(0)	     0(0)	    22(0)	     0(0)	
+ +la0:edb_la_top_c3b120401c7e4465a919ddf347ddb11f(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11000101001000011111110100111001111001000110010101000101010100011000110101100111100001111110111011010111110000001101011001100001,PROBE0_TYPE=1)	  517(315)	     1(0)	  166(43)	  921(369)	     0(0)	     1(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32_c3b120401c7e4465a919ddf347ddb11f	    32(32)	     0(0)	     0(0)	    36(36)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=11'b01,PIPE=1)	      8(8)	     0(0)	     0(0)	      8(8)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=32'b01,PIPE=1)	      1(1)	     0(0)	     0(0)	      1(1)	     0(0)	     0(0)	     0(0)	
+  +trigger_skipper_n:trigger_skipper_c3b120401c7e4465a919ddf347ddb11f	    65(65)	     0(0)	   63(63)	  222(222)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu_c3b120401c7e4465a919ddf347ddb11f(CAPTURE_WIDTH=32'b01,DATA_DEPTH=4096)	    96(34)	     1(0)	    60(0)	  285(166)	     0(0)	     1(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read_c3b120401c7e4465a919ddf347ddb11f(DATA_WIDTH=32'b010,ADDR_WIDTH=12,PIPE=0)	    62(62)	     1(1)	   60(60)	   119(83)	     0(0)	     1(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit_c3b120401c7e4465a919ddf347ddb11f(TOTAL_ADDR_WIDTH=12,CELL_ADDR_WIDTH=13,PIPE=0)	      0(0)	     0(0)	     0(0)	    35(35)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_c3b120401c7e4465a919ddf347ddb11f(DATA_WIDTH=32'b010,ADDR_WIDTH=12,RAM_INIT_FILE="")	      0(0)	     0(0)	     0(0)	      1(1)	     0(0)	     1(1)	     0(0)	
+ +la1:edb_la_top_c3b120401c7e4465a919ddf347ddb11f_renamed_due_excessive_length_1	  768(443)	    40(0)	  163(43)	 1217(428)	     0(0)	    21(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32_c3b120401c7e4465a919ddf347ddb11f	    32(32)	     0(0)	     0(0)	    37(37)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=11'b01010,PIPE=1)	    23(23)	     0(0)	     0(0)	    49(49)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=11'b01010,PIPE=1)	    23(23)	     0(0)	     0(0)	    49(49)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=11'b01010,PIPE=1)	    23(23)	     0(0)	     0(0)	    49(49)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=11'b01010,PIPE=1)	    23(23)	     0(0)	     0(0)	    49(49)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit_c3b120401c7e4465a919ddf347ddb11f(WIDTH=32'b0100,PIPE=1)	      1(1)	     0(0)	     0(0)	      7(7)	     0(0)	     0(0)	     0(0)	
+  +trigger_skipper_n:trigger_skipper_c3b120401c7e4465a919ddf347ddb11f	    65(65)	     0(0)	   63(63)	  222(222)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu_c3b120401c7e4465a919ddf347ddb11f(CAPTURE_WIDTH=32'b0101000,DATA_DEPTH=4096)	   135(73)	    40(0)	    57(0)	  327(164)	     0(0)	    21(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read_c3b120401c7e4465a919ddf347ddb11f(DATA_WIDTH=32'b0101001,ADDR_WIDTH=12,PIPE=0)	    62(62)	   40(40)	   57(57)	   163(80)	     0(0)	    21(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit_c3b120401c7e4465a919ddf347ddb11f(TOTAL_ADDR_WIDTH=12,CELL_ADDR_WIDTH=13,PIPE=0)	      0(0)	     0(0)	     0(0)	    43(43)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_c3b120401c7e4465a919ddf347ddb11f(DATA_WIDTH=32'b0101001,ADDR_WIDTH=12,RAM_INIT_FILE="")	      0(0)	     0(0)	     0(0)	    40(40)	     0(0)	   21(21)	     0(0)	
+ +debug_hub_inst:debug_hub_c3b120401c7e4465a919ddf347ddb11f 	    87(87)	     0(0)	     0(0)	    61(61)	     0(0)	     0(0)	     0(0)	

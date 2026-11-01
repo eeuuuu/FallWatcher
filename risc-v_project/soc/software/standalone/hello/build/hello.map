@@ -1,0 +1,707 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                              build/obj_files/start.o (__libc_init_array)
+d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+                              build/obj_files/http.o (memcpy)
+d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                              build/obj_files/http.o (memset)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/http.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/pdti8_w.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x1a8 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0xc4 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x10 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x1c build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x1d7 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x1c build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x70 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x58 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x19 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x52 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x10e build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x8d build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x43 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x10 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x52 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x182 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x339 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x29 build/obj_files/main.o
+ .debug_macro   0x0000000000000000      0x1a9 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000000000       0x35 build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x1a8 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0xc4 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x10 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x1c build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x1d7 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x1c build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x70 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x58 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x19 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x52 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x10e build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x8d build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x43 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x34 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x10 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x52 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x182 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x339 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x29 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000      0x1a9 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x16 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000000000       0x35 build/obj_files/task3_udp.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/task3_track.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/task3_track.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .group         0x0000000000000000        0xc build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/pdti8_infer.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/pdti8_infer.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000001000 0x00000000000c0000 axwl !r
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/obj_files/http.o
+LOAD build/obj_files/pdti8_w.o
+LOAD build/obj_files/main.o
+LOAD build/obj_files/task3_udp.o
+LOAD build/obj_files/task3_track.o
+LOAD build/obj_files/pdti8_infer.o
+LOAD build/obj_files/start.o
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000000004000                __stack_size = DEFINED (__stack_size)?__stack_size:0x4000
+
+.init           0x0000000000001000       0xc0
+ *(SORT_NONE(.init))
+ .init          0x0000000000001000       0xc0 build/obj_files/start.o
+                0x0000000000001000                _start
+                0x0000000000001018                smp_slave
+                0x0000000000001044                smp_unlock
+                0x00000000000010bc                _init
+
+.text           0x00000000000010c0     0x5558
+ *(.text.Proc_1)
+ *(.text.Proc_2)
+ *(.text.Proc_3)
+ *(.text.Proc_4)
+ *(.text.Proc_5)
+ *(.text.Proc_6)
+ *(.text.Proc_7)
+ *(.text.Proc_8)
+ *(.text.Func_1)
+ *(.text.Func_2)
+ *(.text.Func_3)
+ *(.text.strcpy)
+ *libc.a:*(.text .text.*)
+ .text          0x00000000000010c0        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000000010c0       0x94 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                0x00000000000010c0                __libc_init_array
+ .text          0x0000000000001154        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000001154      0x11c d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+                0x0000000000001154                memcpy
+ .text          0x0000000000001270       0xdc d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                0x0000000000001270                memset
+ *(.text.main)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x000000000000134c      0xc68 build/obj_files/main.o
+                0x000000000000134c                main
+ *(.text .text.*)
+ .text          0x0000000000001fb4     0x2434 build/obj_files/http.o
+                0x00000000000026c8                http_set_status
+                0x0000000000002914                http_set_thumb
+                0x0000000000002964                http_poll
+ .text          0x00000000000043e8        0x0 build/obj_files/pdti8_w.o
+ .text          0x00000000000043e8      0x218 build/obj_files/main.o
+ .text          0x0000000000004600      0x3a4 build/obj_files/task3_udp.o
+                0x0000000000004600                t3_send_bytes
+                0x0000000000004640                t3_send_event
+                0x000000000000486c                t3_send_thumb
+                0x0000000000004970                t3_tx_settle
+ .text          0x00000000000049a4      0xf18 build/obj_files/task3_track.o
+                0x00000000000049a4                t3_track_init
+                0x00000000000049c8                t3_track_clear
+                0x00000000000049e4                t3_blobs
+                0x0000000000004e14                t3_add_box
+                0x0000000000004ff8                t3_add_box_force
+                0x0000000000005048                t3_is_extra
+                0x0000000000005188                t3_update
+                0x0000000000005880                t3_make_thumb
+ .text          0x00000000000058bc      0xd5c build/obj_files/pdti8_infer.o
+                0x0000000000005d38                pdti8_run
+ .text          0x0000000000006618        0x0 build/obj_files/start.o
+ *(.gnu.linkonce.t.*)
+ *(.note.gnu.build-id)
+
+.rela.dyn       0x0000000000006618        0x0
+ .rela.init     0x0000000000006618        0x0 build/obj_files/http.o
+ .rela.text.__libc_init_array
+                0x0000000000006618        0x0 build/obj_files/http.o
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000006618                . = ALIGN (0x4)
+
+.preinit_array  0x0000000000006618        0x0
+                0x0000000000006618                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000000006618                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000006618        0x0
+                0x0000000000006618                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x0000000000006618                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000006618        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.lalign         0x0000000000006618        0x0
+                0x0000000000006618                PROVIDE (_data_lma = .)
+
+.dalign         0x0000000000006618        0x0
+                0x0000000000006618                PROVIDE (_data = .)
+
+.data           0x0000000000006618    0x405de
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x0000000000006618      0xea6 build/obj_files/http.o
+                                        0xeca (size before relaxing)
+ *fill*         0x00000000000074be        0x2 
+ .rodata        0x00000000000074c0    0x3f4a0 build/obj_files/pdti8_w.o
+                0x00000000000074c0                pd_img_noperson
+                0x00000000000098c0                pd_img_person
+                0x000000000000bcc0                pd_w28
+                0x000000000000bec0                pd_s26
+                0x000000000000c2c0                pd_m26
+                0x000000000000c6c0                pd_b26
+                0x000000000000cac0                pd_w26
+                0x000000000001cac0                pd_s25
+                0x000000000001cec0                pd_m25
+                0x000000000001d2c0                pd_b25
+                0x000000000001d6c0                pd_w25
+                0x000000000001dfc0                pd_s24
+                0x000000000001e3c0                pd_m24
+                0x000000000001e7c0                pd_b24
+                0x000000000001ebc0                pd_w24
+                0x0000000000026bc0                pd_s23
+                0x0000000000026dc0                pd_m23
+                0x0000000000026fc0                pd_b23
+                0x00000000000271c0                pd_w23
+                0x0000000000027640                pd_s22
+                0x0000000000027840                pd_m22
+                0x0000000000027a40                pd_b22
+                0x0000000000027c40                pd_w22
+                0x000000000002bc40                pd_s21
+                0x000000000002be40                pd_m21
+                0x000000000002c040                pd_b21
+                0x000000000002c240                pd_w21
+                0x000000000002c6c0                pd_s20
+                0x000000000002c8c0                pd_m20
+                0x000000000002cac0                pd_b20
+                0x000000000002ccc0                pd_w20
+                0x0000000000030cc0                pd_s19
+                0x0000000000030ec0                pd_m19
+                0x00000000000310c0                pd_b19
+                0x00000000000312c0                pd_w19
+                0x0000000000031740                pd_s18
+                0x0000000000031940                pd_m18
+                0x0000000000031b40                pd_b18
+                0x0000000000031d40                pd_w18
+                0x0000000000035d40                pd_s17
+                0x0000000000035f40                pd_m17
+                0x0000000000036140                pd_b17
+                0x0000000000036340                pd_w17
+                0x00000000000367c0                pd_s16
+                0x00000000000369c0                pd_m16
+                0x0000000000036bc0                pd_b16
+                0x0000000000036dc0                pd_w16
+                0x000000000003adc0                pd_s15
+                0x000000000003afc0                pd_m15
+                0x000000000003b1c0                pd_b15
+                0x000000000003b3c0                pd_w15
+                0x000000000003b840                pd_s14
+                0x000000000003ba40                pd_m14
+                0x000000000003bc40                pd_b14
+                0x000000000003be40                pd_w14
+                0x000000000003fe40                pd_s13
+                0x0000000000040040                pd_m13
+                0x0000000000040240                pd_b13
+                0x0000000000040440                pd_w13
+                0x00000000000408c0                pd_s12
+                0x0000000000040ac0                pd_m12
+                0x0000000000040cc0                pd_b12
+                0x0000000000040ec0                pd_w12
+                0x0000000000042ec0                pd_s11
+                0x0000000000042fc0                pd_m11
+                0x00000000000430c0                pd_b11
+                0x00000000000431c0                pd_w11
+                0x0000000000043400                pd_s10
+                0x0000000000043500                pd_m10
+                0x0000000000043600                pd_b10
+                0x0000000000043700                pd_w10
+                0x0000000000044700                pd_s9
+                0x0000000000044800                pd_m9
+                0x0000000000044900                pd_b9
+                0x0000000000044a00                pd_w9
+                0x0000000000044c40                pd_s8
+                0x0000000000044d40                pd_m8
+                0x0000000000044e40                pd_b8
+                0x0000000000044f40                pd_w8
+                0x0000000000045740                pd_s7
+                0x00000000000457c0                pd_m7
+                0x0000000000045840                pd_b7
+                0x00000000000458c0                pd_w7
+                0x00000000000459e0                pd_s6
+                0x0000000000045a60                pd_m6
+                0x0000000000045ae0                pd_b6
+                0x0000000000045b60                pd_w6
+                0x0000000000045f60                pd_s5
+                0x0000000000045fe0                pd_m5
+                0x0000000000046060                pd_b5
+                0x00000000000460e0                pd_w5
+                0x0000000000046200                pd_s4
+                0x0000000000046280                pd_m4
+                0x0000000000046300                pd_b4
+                0x0000000000046380                pd_w4
+                0x0000000000046580                pd_s3
+                0x00000000000465c0                pd_m3
+                0x0000000000046600                pd_b3
+                0x0000000000046640                pd_w3
+                0x00000000000466d0                pd_s2
+                0x0000000000046710                pd_m2
+                0x0000000000046750                pd_b2
+                0x0000000000046790                pd_w2
+                0x0000000000046810                pd_s1
+                0x0000000000046830                pd_m1
+                0x0000000000046850                pd_b1
+                0x0000000000046870                pd_w1
+                0x00000000000468b8                pd_s0
+                0x00000000000468d8                pd_m0
+                0x00000000000468f8                pd_b0
+                0x0000000000046918                pd_w0
+ .rodata        0x0000000000046960       0x14 build/obj_files/main.o
+ .rodata.str1.4
+                0x0000000000046974      0x244 build/obj_files/main.o
+                                        0x24b (size before relaxing)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data          0x0000000000046bb8       0x10 build/obj_files/http.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/pdti8_w.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/main.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/task3_udp.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/task3_track.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/pdti8_infer.o
+ .data          0x0000000000046bc8        0x0 build/obj_files/start.o
+ .data          0x0000000000046bc8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .data          0x0000000000046bc8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000046bc8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000000046bc8                . = ALIGN (0x8)
+                0x00000000000473b8                PROVIDE (__global_pointer$ = (. + 0x7f0))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000000046bc8                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata       0x0000000000046bc8        0xa build/obj_files/http.o
+ *fill*         0x0000000000046bd2        0x2 
+ .srodata       0x0000000000046bd4       0x18 build/obj_files/pdti8_w.o
+                0x0000000000046bd4                pd_s28
+                0x0000000000046bdc                pd_m28
+                0x0000000000046be4                pd_b28
+                0x0000000000046bf6                . = (. + 0xa)
+ *fill*         0x0000000000046bec        0xa 
+                0x0000000000046bf8                . = ALIGN (0x4)
+                0x0000000000046bf8                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x0000000000046bf8                PROVIDE (__bss_start = .)
+
+.bss            0x0000000000046bf8    0x1f9f0
+ *(.sbss*)
+ .sbss          0x0000000000046bf8       0x6c build/obj_files/http.o
+ .sbss          0x0000000000046c64       0x18 build/obj_files/main.o
+ .sbss          0x0000000000046c7c        0x2 build/obj_files/task3_track.o
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ *fill*         0x0000000000046c7e        0x2 
+ .bss           0x0000000000046c80     0x6400 build/obj_files/http.o
+ .bss           0x000000000004d080        0x0 build/obj_files/pdti8_w.o
+ .bss           0x000000000004d080     0x5100 build/obj_files/main.o
+ .bss           0x0000000000052180        0x0 build/obj_files/task3_udp.o
+ .bss           0x0000000000052180     0x2460 build/obj_files/task3_track.o
+ .bss           0x00000000000545e0    0x12000 build/obj_files/pdti8_infer.o
+ .bss           0x00000000000665e0        0x8 build/obj_files/start.o
+                0x00000000000665e0                smp_lottery_target
+                0x00000000000665e4                smp_lottery_lock
+ .bss           0x00000000000665e8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .bss           0x00000000000665e8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000000665e8        0x0 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000000665e8                . = ALIGN (0x4)
+                0x00000000000665e8                . = ALIGN (0x8)
+                0x00000000000665e8                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x00000000000665f0     0x4000
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000000004000                . = __stack_size
+ *fill*         0x00000000000665f0     0x4000 
+                0x000000000006a5f0                PROVIDE (_sp = .)
+                0x000000000006a5f0                __freertos_irq_stack_top = .
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libm.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libg.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+END GROUP
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libnosys.a
+END GROUP
+OUTPUT(build/hello.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x9fde
+ .debug_info    0x0000000000000000     0x3e37 build/obj_files/http.o
+ .debug_info    0x0000000000003e37      0xafc build/obj_files/pdti8_w.o
+ .debug_info    0x0000000000004933     0x225d build/obj_files/main.o
+ .debug_info    0x0000000000006b90     0x126d build/obj_files/task3_udp.o
+ .debug_info    0x0000000000007dfd      0xe1f build/obj_files/task3_track.o
+ .debug_info    0x0000000000008c1c     0x139c build/obj_files/pdti8_infer.o
+ .debug_info    0x0000000000009fb8       0x26 build/obj_files/start.o
+
+.debug_abbrev   0x0000000000000000     0x130e
+ .debug_abbrev  0x0000000000000000      0x5a3 build/obj_files/http.o
+ .debug_abbrev  0x00000000000005a3       0xa2 build/obj_files/pdti8_w.o
+ .debug_abbrev  0x0000000000000645      0x49f build/obj_files/main.o
+ .debug_abbrev  0x0000000000000ae4      0x370 build/obj_files/task3_udp.o
+ .debug_abbrev  0x0000000000000e54      0x282 build/obj_files/task3_track.o
+ .debug_abbrev  0x00000000000010d6      0x224 build/obj_files/pdti8_infer.o
+ .debug_abbrev  0x00000000000012fa       0x14 build/obj_files/start.o
+
+.debug_loc      0x0000000000000000     0xad84
+ .debug_loc     0x0000000000000000     0x5fe6 build/obj_files/http.o
+ .debug_loc     0x0000000000005fe6     0x1a60 build/obj_files/main.o
+ .debug_loc     0x0000000000007a46      0x9f1 build/obj_files/task3_udp.o
+ .debug_loc     0x0000000000008437     0x17dc build/obj_files/task3_track.o
+ .debug_loc     0x0000000000009c13     0x1171 build/obj_files/pdti8_infer.o
+
+.debug_aranges  0x0000000000000000       0xe0
+ .debug_aranges
+                0x0000000000000000       0x20 build/obj_files/http.o
+ .debug_aranges
+                0x0000000000000020       0x18 build/obj_files/pdti8_w.o
+ .debug_aranges
+                0x0000000000000038       0x28 build/obj_files/main.o
+ .debug_aranges
+                0x0000000000000060       0x20 build/obj_files/task3_udp.o
+ .debug_aranges
+                0x0000000000000080       0x20 build/obj_files/task3_track.o
+ .debug_aranges
+                0x00000000000000a0       0x20 build/obj_files/pdti8_infer.o
+ .debug_aranges
+                0x00000000000000c0       0x20 build/obj_files/start.o
+
+.debug_ranges   0x0000000000000000     0x1a68
+ .debug_ranges  0x0000000000000000     0x1018 build/obj_files/http.o
+ .debug_ranges  0x0000000000001018      0x428 build/obj_files/main.o
+ .debug_ranges  0x0000000000001440      0x298 build/obj_files/task3_udp.o
+ .debug_ranges  0x00000000000016d8      0x218 build/obj_files/task3_track.o
+ .debug_ranges  0x00000000000018f0      0x178 build/obj_files/pdti8_infer.o
+
+.debug_macro    0x0000000000000000     0x2356
+ .debug_macro   0x0000000000000000      0x239 build/obj_files/http.o
+ .debug_macro   0x0000000000000239      0x766 build/obj_files/http.o
+ .debug_macro   0x000000000000099f       0x22 build/obj_files/http.o
+ .debug_macro   0x00000000000009c1       0x8e build/obj_files/http.o
+ .debug_macro   0x0000000000000a4f       0x51 build/obj_files/http.o
+ .debug_macro   0x0000000000000aa0      0x103 build/obj_files/http.o
+ .debug_macro   0x0000000000000ba3       0x6a build/obj_files/http.o
+ .debug_macro   0x0000000000000c0d      0x1df build/obj_files/http.o
+ .debug_macro   0x0000000000000dec      0x1a8 build/obj_files/http.o
+ .debug_macro   0x0000000000000f94       0xc4 build/obj_files/http.o
+ .debug_macro   0x0000000000001058       0x10 build/obj_files/http.o
+ .debug_macro   0x0000000000001068       0x1c build/obj_files/http.o
+ .debug_macro   0x0000000000001084       0x16 build/obj_files/http.o
+ .debug_macro   0x000000000000109a      0x1d7 build/obj_files/http.o
+ .debug_macro   0x0000000000001271       0x1c build/obj_files/http.o
+ .debug_macro   0x000000000000128d       0x70 build/obj_files/http.o
+ .debug_macro   0x00000000000012fd       0x58 build/obj_files/http.o
+ .debug_macro   0x0000000000001355       0x19 build/obj_files/http.o
+ .debug_macro   0x000000000000136e       0x52 build/obj_files/http.o
+ .debug_macro   0x00000000000013c0       0x34 build/obj_files/http.o
+ .debug_macro   0x00000000000013f4       0x34 build/obj_files/http.o
+ .debug_macro   0x0000000000001428       0x16 build/obj_files/http.o
+ .debug_macro   0x000000000000143e      0x10e build/obj_files/http.o
+ .debug_macro   0x000000000000154c       0x8d build/obj_files/http.o
+ .debug_macro   0x00000000000015d9       0x16 build/obj_files/http.o
+ .debug_macro   0x00000000000015ef       0x43 build/obj_files/http.o
+ .debug_macro   0x0000000000001632       0x34 build/obj_files/http.o
+ .debug_macro   0x0000000000001666       0x10 build/obj_files/http.o
+ .debug_macro   0x0000000000001676       0x52 build/obj_files/http.o
+ .debug_macro   0x00000000000016c8      0x182 build/obj_files/http.o
+ .debug_macro   0x000000000000184a      0x339 build/obj_files/http.o
+ .debug_macro   0x0000000000001b83       0x16 build/obj_files/http.o
+ .debug_macro   0x0000000000001b99       0x29 build/obj_files/http.o
+ .debug_macro   0x0000000000001bc2      0x1a9 build/obj_files/http.o
+ .debug_macro   0x0000000000001d6b       0x16 build/obj_files/http.o
+ .debug_macro   0x0000000000001d81       0x35 build/obj_files/http.o
+ .debug_macro   0x0000000000001db6       0x5d build/obj_files/pdti8_w.o
+ .debug_macro   0x0000000000001e13      0x21b build/obj_files/main.o
+ .debug_macro   0x000000000000202e       0x22 build/obj_files/main.o
+ .debug_macro   0x0000000000002050      0x219 build/obj_files/task3_udp.o
+ .debug_macro   0x0000000000002269       0x8c build/obj_files/task3_track.o
+ .debug_macro   0x00000000000022f5       0x61 build/obj_files/pdti8_infer.o
+
+.debug_line     0x0000000000000000     0xa167
+ .debug_line    0x0000000000000000     0x4b78 build/obj_files/http.o
+ .debug_line    0x0000000000004b78      0x17d build/obj_files/pdti8_w.o
+ .debug_line    0x0000000000004cf5     0x1e46 build/obj_files/main.o
+ .debug_line    0x0000000000006b3b      0xe48 build/obj_files/task3_udp.o
+ .debug_line    0x0000000000007983     0x1c48 build/obj_files/task3_track.o
+ .debug_line    0x00000000000095cb      0xa82 build/obj_files/pdti8_infer.o
+ .debug_line    0x000000000000a04d      0x11a build/obj_files/start.o
+
+.debug_str      0x0000000000000000     0x951a
+ .debug_str     0x0000000000000000     0x8ab8 build/obj_files/http.o
+                                       0x8daf (size before relaxing)
+ .debug_str     0x0000000000008ab8      0x327 build/obj_files/pdti8_w.o
+                                       0x36d7 (size before relaxing)
+ .debug_str     0x0000000000008ddf      0x4c7 build/obj_files/main.o
+                                       0x8ef9 (size before relaxing)
+ .debug_str     0x00000000000092a6      0x107 build/obj_files/task3_udp.o
+                                       0x8b78 (size before relaxing)
+ .debug_str     0x00000000000093ad       0xe0 build/obj_files/task3_track.o
+                                       0x35aa (size before relaxing)
+ .debug_str     0x000000000000948d       0x6f build/obj_files/pdti8_infer.o
+                                       0x3760 (size before relaxing)
+ .debug_str     0x00000000000094fc       0x1e build/obj_files/start.o
+                                         0x5c (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build/obj_files/http.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 build/obj_files/pdti8_w.o
+ .comment       0x0000000000000033       0x34 build/obj_files/main.o
+ .comment       0x0000000000000033       0x34 build/obj_files/task3_udp.o
+ .comment       0x0000000000000033       0x34 build/obj_files/task3_track.o
+ .comment       0x0000000000000033       0x34 build/obj_files/pdti8_infer.o
+
+.debug_frame    0x0000000000000000      0x4fc
+ .debug_frame   0x0000000000000000      0x168 build/obj_files/http.o
+ .debug_frame   0x0000000000000168       0x6c build/obj_files/main.o
+ .debug_frame   0x00000000000001d4       0x98 build/obj_files/task3_udp.o
+ .debug_frame   0x000000000000026c      0x148 build/obj_files/task3_track.o
+ .debug_frame   0x00000000000003b4       0xec build/obj_files/pdti8_infer.o
+ .debug_frame   0x00000000000004a0       0x3c d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .debug_frame   0x00000000000004dc       0x20 d:/program/efinity-riscv-ide-2025.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)

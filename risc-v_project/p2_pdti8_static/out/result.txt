@@ -1,0 +1,7 @@
+[OUTPUT_0 person TFLM] person=113 no_person=-113 decide=person expect=person ref=(113,-113) OK
+[OUTPUT_1 no_person TFLM] person=-58 no_person=58 decide=no_person expect=no_person ref=(-57,57) OK
+[OUTPUT_2 people1] person=95 no_person=-95 decide=person expect=person ref=(93,-93) OK
+[OUTPUT_3 people2] person=55 no_person=-55 decide=person expect=person ref=(57,-57) OK
+[OUTPUT_4 no_people1] person=-51 no_person=51 decide=no_person expect=no_person ref=(-51,51) OK
+[OUTPUT_5 no_people2] person=-110 no_person=110 decide=no_person expect=no_person ref=(-111,111) OK
+decision match 6/6 (score may differ from TFLM+accel ref)

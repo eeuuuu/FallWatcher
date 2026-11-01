@@ -1,0 +1,2177 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 17:46:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:1333)
+[EFX-0010 VERI-ERROR] SystemVerilog 2009 keyword 'endmodule' used in incorrect context (VERI-2344) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:1333)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 17:52:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 17:58:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 18:22:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 18:36:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'hyperram_controller_define.vh' (SORT-1015) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:17)
+[EFX-0010 VERI-ERROR] cannot open include file 'hyperram_controller_define.vh' (VERI-1245) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:17)
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:166)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data0_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:167)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data1_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:168)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data2_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:169)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data3_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:170)
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_LP_P_OE' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:171)
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_LP_N_OE' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:172)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:291)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:291)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:292)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:292)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:298)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:298)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:421)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:421)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:422)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:422)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:429)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 18:57:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:165)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data0_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:166)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data1_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:167)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data2_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:168)
+[EFX-0010 VERI-ERROR] 'mipi_tx_data3_RST' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:169)
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_LP_P_OE' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:170)
+[EFX-0010 VERI-ERROR] 'mipi_tx_clk_LP_N_OE' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:171)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:290)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:290)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:291)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:291)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:297)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:297)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:420)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:420)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:421)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:421)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:428)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:428)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 18:59:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:274)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:274)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:275)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:275)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:281)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:281)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:404)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:404)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:405)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:405)
+[EFX-0010 VERI-ERROR] 'AXI_DBW' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:412)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:412)
+[EFX-0010 VERI-ERROR] module 'ti60f225_oob_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:1028)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 19:00:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'io_ddrMasters_0_clk' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:911)
+[EFX-0010 VERI-ERROR] cannot find port 'io_ddrMasters_0_reset' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:912)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2023 19:01:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 09:31:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'sapphire_soc' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:929)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 09:36:08
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'userInterruptB' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:893)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 09:37:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 11:39:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 12:02:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 12:26:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:156)
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:157)
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:158)
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:160)
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:161)
+[EFX-0010 VERI-ERROR] 'w_soc_led' is not declared (VERI-1128) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:162)
+[EFX-0010 VERI-ERROR] module 'ti60f225_oob_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\yls_Prj_demo\oob_demo\efx_ti60f225_oob\rtl\ti60f225_oob_top.v:813)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 12:29:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 14:29:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 15:26:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 16:34:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 18:52:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 18:59:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2023 23:34:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 12:13:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 12:43:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 12:54:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 13:05:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 13:47:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2023 20:34:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 00:26:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 00:45:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 00:57:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module '**' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\ddr3_controller\phy_ctl\ddr_phy_if.v:0)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 00:57:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module '**' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\ddr3_controller\phy_ctl\ddr_phy_if.v:0)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 00:59:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module '**' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\ddr3_controller\phy_ctl\ddr_phy_if.v:0)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 01:01:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module '**' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\ddr3_controller\phy_ctl\ddr_phy_if.v:0)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2023 01:02:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 20:49:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 22:11:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'par2ser_128_16_v1' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\frame_buffer\par2ser_128_32_v1.v:142)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 22:12:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'ddr_frame_len' on this module (VERI-1010) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\frame_buffer\vid_rx_align_v1.v:94)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 22:13:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 22:55:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 23:21:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2023 23:54:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 00:03:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 08:53:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:31:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'true_dual_port_ram' (VERI-1206) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v2\rtl\debayer\true_dual_port_ram.v:144)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 09:35:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 10:08:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 31, 2023 11:01:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:16:48
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'USER_PLL_RSTN' has multiple drivers. (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\ti60f225_oob_top.v:60)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:20:00
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'DDR3_PLL_RSTN' has multiple drivers. (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\ti60f225_oob_top.v:61)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:20:43
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'i_mipi_clk' has multiple drivers. (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\ti60f225_oob_top.v:416)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:21:46
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'mipi_dsi_tx_pll_RSTN' has multiple drivers. (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\ti60f225_oob_top.v:361)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 21:24:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 22:08:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 22:49:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2023 23:43:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 22:23:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 22:40:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 22:56:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 22:59:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 23:23:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2023 23:45:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 21:51:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 22:16:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 22:19:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 22:23:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 22:41:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2023 23:48:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 10:29:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 10:57:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 13:28:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 14:16:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 14:52:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'i2c_wrapper' (VERI-1063) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\cam\piv2_config.v:113)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 14:54:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open file '../rtl/cam/piv2_1080p_reg.mem' (VERI-1012) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v3\rtl\true_dual_port_ram.v:52)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 14:56:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 14:58:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 15:34:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 15:40:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 17:19:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 12, 2023 17:21:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 22, 2023 10:48:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 22, 2023 11:15:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 22, 2023 11:17:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 22, 2023 11:47:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 22, 2023 12:14:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 00:35:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 19:52:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 20:48:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 22:27:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 22:32:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 05, 2023 23:16:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 06, 2023 00:12:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 06, 2023 00:46:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 06, 2023 14:04:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 06, 2023 23:44:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] illegal expression in target (VERI-1042) (D:\FPGA_Prj\03_Ti60F225_DemoBoard\Prj_demo\05_Ti60F225_mipi_demo\mipi_csi_demo\efx_ti60f225_mipi_csi_v51\rtl\ti60f225_oob_top.v:507)
+[EFX-0021 ERROR] Verific elaboration of module 'ti60f225_oob_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 06, 2023 23:46:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 07, 2023 23:14:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 07, 2023 23:39:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 08, 2023 00:05:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 08, 2023 00:53:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 22, 2024 23:59:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 30, 2024 12:23:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 02, 2024 11:08:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 10:18:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] assignment to input 'io_cam_scl_OUT' (VERI-1214) (E:\FPGA_Prj\Ti60F225_DemoBoard\07_Ti60F225_MIPI_C2D_Demo\efx_ti60f225_mipi_csi_v13\rtl\ti60f225_oob_top.v:561)
+[EFX-0021 ERROR] Elaboration of module 'ti60f225_oob_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 10:19:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 10:28:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 10:40:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 11:04:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:06:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'sil9134_top' (VERI-1063) (E:\FPGA_Prj\Ti60F225_DemoBoard\07_Ti60F225_MIPI_C2D_Demo\efx_ti60f225_mipi_csi_v13\rtl\ti60f225_oob_top.v:567)
+[EFX-0021 ERROR] Elaboration of module 'ti60f225_oob_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:10:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:53:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 12:03:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 29, 2024 23:53:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2024 00:07:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 30, 2024 00:31:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 19:31:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 19:46:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 19:52:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 20:08:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 20:10:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 02, 2024 20:44:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 12:16:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 12:28:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 13:10:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 14:19:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 14:32:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 14:43:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 03, 2024 14:55:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 10:07:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 10:23:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 10:37:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 10:54:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 11:39:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 12:03:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 12:27:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 14:35:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 07, 2024 14:42:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 18:08:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 21:27:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 21:43:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 21:57:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:12:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:36:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'DC_FIFO' (VERI-1206) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\dvi_tx\DC_FIFO.v:548)
+[EFX-0010 VERI-ERROR] module 'FifoAddrCnt' is ignored due to previous errors (VERI-1072) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\dvi_tx\DC_FIFO.v:639)
+[EFX-0010 VERI-ERROR] module 'GrayCnt' is ignored due to previous errors (VERI-1072) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\dvi_tx\DC_FIFO.v:744)
+[EFX-0010 VERI-ERROR] module 'GrayDecode' is ignored due to previous errors (VERI-1072) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\dvi_tx\DC_FIFO.v:797)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:36:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'simple_dual_port_ram' (VERI-1206) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\dvi_tx\simple_dual_port_ram.v:63)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:37:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:54:06
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'color_bar' (VERI-1063) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\ti60f225_oob_top.v:936)
+[EFX-0021 ERROR] Elaboration of module 'ti60f225_oob_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 22:55:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 23:38:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (E:\FPGA_Demo\02_Ti60F225_DemoBoard\FPGA_Prj\10_Ti60f225_csi2hdmi_demo\Ti60f225_sc431hai2hdmi_v0\rtl\ti60f225_oob_top.v:214)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 23:39:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 21, 2024 23:57:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 22, 2024 09:22:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 22, 2024 09:40:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 23, 2024 12:24:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Mar 31, 2026 15:16:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 00:22:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 00:33:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 07:59:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 08:09:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 08:18:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 08:27:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 08:43:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 09:18:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 09:36:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 10:04:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 10:15:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 10:33:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 10:43:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 10:56:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 11:34:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 14:08:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 17:23:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 23:44:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 23:54:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2026 23:57:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2026 22:22:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2026 22:36:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 25, 2026 22:45:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 08:24:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 08:45:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 09:51:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 10:00:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 10:16:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 10:33:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 10:42:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 10:52:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 11:04:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 19:52:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 20:04:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 20:27:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 26, 2026 20:58:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 27, 2026 08:38:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2026 23:19:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2026 23:39:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 00:07:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 00:12:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 00:16:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 00:49:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 00:58:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:05:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:12:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:20:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:26:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:37:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 01:44:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 08:54:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 09:30:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 09:52:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 10:02:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 10:29:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 10:50:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 10:55:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 11:10:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 11:19:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 11:32:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 11:44:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 11:55:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 12:27:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 12:44:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 12:53:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 12:57:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 16:19:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 17:20:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 19:37:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 19:52:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 20:10:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 21:00:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 21:17:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 21:31:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 21:44:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 21:53:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 22:10:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 22:37:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 23:03:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 23:09:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2026 23:42:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 00:02:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open file 'EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin' (VERI-1012) (D:\FPGA\cursor\prj_38\02-fpga\01_sc431_to_hdmi\ip/soc\soc.v:11062)
+[EFX-0021 ERROR] Elaboration of module 'ti60f225_oob_top' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 00:02:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 00:08:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 00:12:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 10:25:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 10:34:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 10:46:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 11:11:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 11:18:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 11:25:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 12:25:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 12:56:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 13:27:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 16:49:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 17:03:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 17:26:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 17:33:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 22:53:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 22:58:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 23:20:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2026 23:38:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 00:07:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 09:14:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 19:31:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 19:48:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 20:11:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 20:25:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 20:36:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 20:58:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 21:12:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 21:40:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 22:10:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 23:47:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'eth_tcp_mac' (VERI-1206) (D:\FPGA\cursor\prj_38\02-fpga\01_sc431_to_hdmi\rtl\eth\eth_tcp_mac.v:261)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 23:48:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 23:52:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2026 23:56:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2026 00:06:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2026 08:33:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2026 09:36:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2026 10:02:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 21:58:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 22:25:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 22:35:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 22:59:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 23:22:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 11, 2026 23:35:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 12, 2026 00:03:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 12, 2026 00:22:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2026 17:08:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 14, 2026 00:14:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2026 20:52:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2026 22:45:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 15, 2026 22:54:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 00:42:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 08:14:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 09:45:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 10:18:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 12:49:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 13:17:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 18:58:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 19:41:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 20:07:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 20:57:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 21:27:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 21:38:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 22:00:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 22:16:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 22:26:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 23:06:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 23:18:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 16, 2026 23:29:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 00:06:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 10:56:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 11:53:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 14:41:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 16:44:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 17:41:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 18:14:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 18:21:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 18:48:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 19:01:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 19:09:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 19:33:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 20:17:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 21:13:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 21:24:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 22:25:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 22:50:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 23:46:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (D:\FPGA\cursor\prj_38\02-fpga\01_sc431_to_hdmi\rtl\j7_sensor_hub.v:647)
+[EFX-0010 VERI-ERROR] SystemVerilog 2009 keyword 'endmodule' used in incorrect context (VERI-2344) (D:\FPGA\cursor\prj_38\02-fpga\01_sc431_to_hdmi\rtl\j7_sensor_hub.v:647)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 17, 2026 23:47:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 00:08:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 00:23:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 01:11:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 11:06:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 11:20:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 11:25:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 11:41:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 11:58:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 12:08:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 12:23:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 12:42:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 13:00:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 14:16:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 14:17:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 14:37:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 14:45:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 16:33:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 16:52:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 17:28:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 18, 2026 17:40:12
+///////////////////////////////////
+
